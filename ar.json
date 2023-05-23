@@ -1,0 +1,2107 @@
+{
+  "filesSizes": [
+    "Bytes",
+    "KB",
+    "MB",
+    "GB",
+    "TB",
+    "PB",
+    "EB",
+    "ZB",
+    "YB"
+  ],
+  "globals": {
+    "all_statuses": "كل الحالات",
+    "action": "العملية | العمليات",
+    "activity": "النشاط | الأنشطة",
+    "byte": "بايت | بايتات",
+    "cohort": "المجموعة | المجموعات",
+    "course": "الدورة | الدورات",
+    "continue": "متابعة",
+    "csv": "CSV",
+    "coming_soon": "قريباً",
+    "draft": "مسودة",
+    "delete": "حذف",
+    "day": "يوم | أيام",
+    "duplicate": "تكرار",
+    "date": "تاريخ",
+    "detail": "تفصيل | تفاصيل",
+    "discussion": "مناقشة | مناقشات",
+    "dashboard": "لوحة القيادة",
+    "homepage": "الصفحة الرئيسية",
+    "download": "تحميل",
+    "editor": "المحرر",
+    "edit": "تحرير",
+    "end_date": "تاريخ الانتهاء",
+    "export_table_data_as": "تصدير كـ",
+    "grid": "شبكة",
+    "insight": "نظرة | نظرات",
+    "item": "عنصر | عناصر",
+    "learning_path": "مسار التعلم | مسارات التعلم",
+    "learner": "المتعلم | المتعلمون",
+    "lecture": "محاضرة | محاضرات",
+    "list": "قائمة",
+    "lesson": "درس",
+    "month": "شهر | أشهر",
+    "missing_title": "عنوان مفقود",
+    "my_learning_path": "مساري التعلم | مساراتي التعلم",
+    "notification": "تنبيه | تنبيهات",
+    "no_results_found": "لا يوجد نتائج",
+    "overview": "نظرة عامة",
+    "open": "فتح",
+    "program": "البرنامج | البرامج",
+    "publish": "نشر",
+    "published": "نُشرت",
+    "page": "صفحة | صفحات",
+    "preview": "معاينة",
+    "pdf": "PDF",
+    "question": "سؤال | أسئلة",
+    "resource": "المورد | الموارد",
+    "response": "الإجابة",
+    "save_changes": "حفظ التغييرات",
+    "save": "حفظ",
+    "start_date": "تاريخ البدء",
+    "submission": "تسليم | تسليمات",
+    "status": "الحالة",
+    "total_users": "إجمالي المستخدمين",
+    "user": "المستخدم | المستخدمون",
+    "upload_and_save": "تحميل و حفظ",
+    "upload_notice": "يمكنك تحميل الصيغ التالية: {formats}، بحد أقصى لحجم الملف: {size}",
+    "view": "عرض | عروض",
+    "view_all": "عرض الكل",
+    "validation_failed": "فشل التحقق",
+    "error": "خطأ",
+    "max_number": "{current} / {max} كحد أقصى",
+    "select_learning_path": "حدد مسار التعلم",
+    "select_cohort": "حدد المجموعة النموذجية",
+    "cohort_number": "لا يوجد مجموعات | مجموعة واحدة | {n} مجموعات"
+  },
+  "login_page": {
+    "heading": "لنبدأ في التعلم",
+    "sub_heading": "تسجيل الدخول إلى حسابك",
+    "email_input_placeholder": "أدخل بريدك الإلكتروني",
+    "email_input_label": "البريد الإلكتروني",
+    "password_input_placeholder": "أدخل كلمة المرور الخاصة بك",
+    "password_input_label": "كلمة المرور",
+    "sign_in_button": "تسجيل الدخول",
+    "forgot_password": "هل نسيت كلمة المرور الخاصة بك؟",
+    "recaptcha_loading_error": "خطأ في تحميل Recaptcha"
+  },
+  "forgot_password_page": {
+    "heading": "نسيت كلمة المرور؟",
+    "description": "الرجاء إدخال عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصة بك.",
+    "email_input_label": "البريد الإلكتروني",
+    "email_input_placeholder": "أدخل بريدك الإلكتروني",
+    "form_submit_button_txt": "إرسال",
+    "redirect_to_login_button_txt": "العودة لتسجيل الدخول",
+    "email_success_section_heading": "تحقق من بريدك الإلكتروني",
+    "email_success_section_description": "لقد أرسلنا رابط إعادة تعيين كلمة المرور إلى عنوان بريدك الإلكتروني. الرجاء التحقق من صندوق البريد الوارد أو مجلد البريد المزعج.",
+    "resend_email_button_txt": "إعادة الإرسال",
+    "send_mail_unknow_error": "خطأ",
+    "notifications": {
+      "email_resent_success_heading": "تمت إعادة إرسال البريد الإلكتروني بنجاح",
+      "email_resent_success_txt": "تم إرسال بريد إلكتروني جديد إلى بريدك الإلكتروني"
+    }
+  },
+  "learning_paths_page": {
+    "heading_label": "{n} في المجموع",
+    "new_learning_path_button": "مسار تعلّم جديد",
+    "search_input_placeholder": "البحث",
+    "no_results__heading": "يساعد مسار التعلّم المتعلّمين على بناء المعرفة بشكل تدريجي من خلال مجموعة من الأنشطة التعلّمية الإلكترونية.",
+    "learning_path_modal": {
+      "heading": "مسار تعلّم جديد",
+      "name_input_label": "اسم مسار التعلّم",
+      "name_input_placeholder": "على سبيل المثال: علوم البيانات",
+      "category_input_placeholder": "فئة مسار التعلّم",
+      "new_category_button": "إنشاء فئة جديدة",
+      "description_input_label": "وصف مسار التعلّم",
+      "description_input_placeholder": "وصف موجز لمسار التعلّم",
+      "progress_type_label": "نوع التقدم",
+      "progress_type_tooltip": "تلميح هنا",
+      "sequential": "تسلسلي",
+      "no_sequential": "غير تسلسلي",
+      "duration_input_label": "تحديد مدة لمسار التعلّم",
+      "duration_input_sublabel": "كم مدة المسار؟",
+      "thumbnail_input_label": "صورة مصغرة لمسار التعلّم",
+      "learning_path_creation_error": "خطأ في إنشاء مسار التعلّم"
+    },
+    "deleting_learning_path_error": "خطأ في حذف مسار التعلّم",
+    "prompts": {
+      "delete_learning_path": {
+        "heading": "حذف العنصر",
+        "description": "أنت على وشك حذف عنصر.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      }
+    },
+    "no_results": "لم يتم العثور على أية نتائج"
+  },
+  "navigation": {
+    "profile_settings": "إعدادات الملف الشخصي",
+    "sign_out": "تسجيل الخروج"
+  },
+  "builders": {
+    "navigation": {
+      "build": "بناء",
+      "cohorts": "مجموعات",
+      "submissions": "التسليمات"
+    },
+    "add_block": {
+      "groups_names": {
+        "containers": "حاويات",
+        "blocks": "كتل",
+        "lessons": "دروس",
+        "questions": "أسئلة"
+      },
+      "blocks_description": {
+        "section": "كتلة القسم",
+        "quiz": "كتلة الاختبار",
+        "link": "كتلة الرابط",
+        "meeting": "كتلة الاجتماع",
+        "course": "كتلة الدورة التدريبية",
+        "file": "كتلة الملف",
+        "assignment": "كتلة الواجب",
+        "email": "كتلة البريد الإلكتروني",
+        "page": "كتلة الصفحة",
+        "wait": "كتلة الانتظار",
+        "evaluation": "كتلة التقييم"
+      },
+      "blocks_content": {
+        "section": "قسم",
+        "quiz": "اختبار",
+        "link": "رابط",
+        "meeting": "اجتماع",
+        "course": "دورة تدريبية",
+        "file": "ملف",
+        "assignment": "واجب",
+        "email": "بريد إلكتروني",
+        "page": "صفحة",
+        "wait": "انتظار",
+        "evaluation": "تقييم",
+        "multiple_choice": "اختيار من متعدد",
+        "yes_no": "نعم / لا",
+        "open_question": "سؤال مفتوح",
+        "tincan": "Tincan",
+        "pdf": "PDF",
+        "video": "فيديو"
+      }
+    },
+    "cohorts_overview": "نظرة عامة على المجموعات",
+    "add_at_least_one_block": "يرجى إضافة على الأقل كتلة واحدة",
+    "missing_required_fields": "بعض الحقول مفقودة أو غير صالحة، يرجى ملء الحقول بالبيانات الصحيحة",
+    "blocks_default_titles": {
+      "welcome": "مرحباً",
+      "thankyou": "تهانينا",
+      "section": "قسم",
+      "quiz": "اختبار",
+      "link": "رابط",
+      "meeting": "اجتماع",
+      "course": "دورة",
+      "file": "ملف",
+      "assignment": "واجب",
+      "email": "بريد إلكتروني",
+      "page": "صفحة",
+      "wait": "انتظار",
+      "evaluation": "تقييم",
+      "multiple_choice": "اختيار من متعدد",
+      "yes_no": "نعم / لا",
+      "open_question": "سؤال مفتوح",
+      "tincan": "Tincan",
+      "pdf": "PDF",
+      "video": "فيديو"
+    },
+    "blocks_terms": {
+      "assignment_block": {
+        "discussion": "مناقشة",
+        "upload_assignment": "رفع واجب"
+      },
+      "evaluation_block": {
+        "appendix_1": "الملحق 1 - تقييم الأداء السريري المصغر (Mini-CEX)",
+        "appendix_2": "الملحق 2 - تقييم الأداء العملي الموجه (DOPS)"
+      }
+    },
+    "blocks_validation_messages": {
+      "select_at_least_one_link": "يرجى اختيار رابط واحد على الأقل",
+      "select_at_least_one_file": "يرجى اختيار ملف واحد على الأقل",
+      "select_at_least_one_course": "يرجى اختيار دورة واحدة على الأقل",
+      "empty_section": "يرجى إضافة كتلة واحدة على الأقل داخل القسم",
+      "empty_quiz": "يرجى إضافة سؤال واحد على الأقل داخل الاختبار",
+      "two_quiz_choices_required": "يرجى إضافة خيارين على الأقل",
+      "two_quiz_correct_choices_required": "النوع مُحدد على 'اختيار متعدد'، يرجى اختيار خيارين صحيحين على الأقل",
+      "one_quiz_correct_choice_required": "النوع مُحدد على 'اختيار واحد'، يرجى اختيار خيار واحد صحيح فقط",
+      "quiz_yes_no_required": "يرجى اختيار خيار واحد",
+      "failed_file_processing": "فشل معالجة الملف، يرجى تحميل ملف جديد.",
+      "file_required": "الملف مطلوب.",
+      "meeting_link_required": "يجب عليك إنشاء رابط الاجتماع",
+      "location_field_required": "حقل الموقع مطلوب."
+    },
+    "notifications": {
+      "init_resources_failure_heading": "فشل في تهيئة المصادر",
+      "init_resources_failure_txt": "حدث خطأ أثناء تهيئة المصادر المحددة بالفعل",
+      "adding_resources_failure_heading": "فشل في إضافة المصادر",
+      "adding_resources_failure_txt": "حدث خطأ أثناء إضافة مصدر بواسطة معرف",
+      "init_courses_failure_heading": "فشل في تهيئة الدورات",
+      "init_courses_failure_txt": "حدث خطأ أثناء تهيئة الدورات المحددة بالفعل",
+      "unsaved_changes": "قد لا يتم حفظ التغييرات التي أجريتها."
+    },
+    "prompts": {
+      "delete_course": {
+        "heading": "حذف الدورة",
+        "description": "هل أنت متأكد أنك تريد حذف هذه الدورة؟",
+        "cancel_button": "إلغاء",
+        "confirmation_button": "تأكيد"
+      },
+      "delete_resource": {
+        "heading": "حذف {ResourceType}",
+        "description": "هل أنت متأكد أنك تريد حذف هذا {ResourceType}؟",
+        "cancel_button": "إلغاء",
+        "confirmation_button": "تأكيد"
+      }
+    },
+    "blocks": {
+      "assignment": {
+        "title_input_placeholder": "يرجى تسمية خطوتك",
+        "title_input_label": "عنوان",
+        "title_input_label_tooltip": "عنوان",
+        "content_input_label": "محتوى",
+        "content_input_label_tooltip": "محتوى",
+        "total_score_input_label": "مجموع النقاط",
+        "total_score_input_label_tooltip": "حدد الدرجة الإجمالية للواجب",
+        "passing_score_input_label": "درجة النجاح",
+        "passing_score_input_label_tooltip": "تعيين درجة النجاح",
+        "assignment_type_label": "نوع الواجب",
+        "assignment_type_label_tooltip": "نوع الواجب",
+        "assignment_type_discussion_message": "سيتم تصنيف المتعلم على رد المناقشة الخاص به",
+        "assignment_type_file_upload_message": "سيقوم المتعلم بتحميل ملف ليتم التقدير عليه.",
+        "attachment_input_label": "السماح بالمرفقات؟"
+      },
+      "course": {
+        "title_input_placeholder": "يرجى تسمية خطوتك",
+        "title_input_label": "عنوان",
+        "selected_course_section_label": "دورة مختارة",
+        "selected_course_section_label_tooltip": "دورة مختارة",
+        "upload_course_label": "تحميل الدورة",
+        "upload_course_label_tooltip": "تحميل الدورة",
+        "open_courses_manager_button_txt": "تصفح الدورات المتاحة",
+        "courses_manager_modal": {
+          "heading": "حدد دورة",
+          "search_input_placeholder": "بحث موحد عن الدورات ...",
+          "programs_input_placeholder": "برنامج",
+          "selected": "المحدد",
+          "select": "يختار",
+          "loading_courses_error": "خطأ في تحميل الدورات",
+          "no_results": "لم يتم العثور على نتائج",
+          "done_selection": "تم التحديد"
+        }
+      },
+      "link": {
+        "title_input_placeholder": "يرجى إعطاء الخطوة اسمًا",
+        "title_input_label": "العنوان",
+        "add_link_button_txt": "إضافة رابط",
+        "browse_links_button_txt": "تصفح الروابط المتاحة",
+        "not_valid_url_error_message": "هذا ليس رابطًا صالحًا",
+        "selected_links_section_label": "الروابط المحددة",
+        "selected_links_section_label_tooltip": "الروابط المحددة",
+        "notifications": {
+          "adding_resource_error_heading": "خطأ في إضافة المورد",
+          "adding_resource_error_txt": "حدث خطأ أثناء إضافة مورد جديد"
+        },
+        "new_url_input_label": "رابط جديد",
+        "new_url_input_placeholder": "https://example.com",
+        "existing_url_input_label": "رابط موجود",
+        "link_preview": "معاينة الرابط",
+        "broken_link_error": "يبدو أن هذا الرابط معطل أو غير صالح"
+      },
+      "file": {
+        "title_input_placeholder": "يرجى إعطاء الخطوة اسمًا",
+        "title_input_label": "العنوان",
+        "selected_files_label": "الملفات المحددة",
+        "selected_files_label_tooltip": "الملفات المحددة",
+        "upload_file_section_label": "رفع ملف",
+        "upload_file_section_label_tooltip": "رفع ملف",
+        "new_file_label": "ملف جديد",
+        "existing_file_label": "ملف موجود",
+        "file_formats_list": "يمكنك تحميل الملفات بالصيغ التالية: .svg، .png، .jpg، .jpeg، .gif، .pdf، .docx، .xlsx، .pptx، .mp4، .mov، بحجم ملف يصل إلى 20 ميجابايت",
+        "open_files_manager_button_txt": "تصفح الملفات المتاحة"
+      },
+      "files_and_links_manager": {
+        "files_manager_heading": "اختر الملفات",
+        "links_manager_heading": "اختر الروابط",
+        "search_input_placeholder": "البحث...",
+        "file_type_input_placeholder": "نوع الملف",
+        "no_results_found": "لم يتم العثور على نتائج",
+        "selected": "محدد",
+        "select": "تحديد",
+        "done_selection_button_txt": "انتهاء التحديد ({n})",
+        "loading_resources_error": "حدث خطأ أثناء تحميل الموارد"
+      },
+      "email": {
+        "title_input_placeholder": "يرجى إعطاء اسم للخطوة",
+        "title_input_label": "العنوان",
+        "email_block_not_visible_to_students_message": "لن يتمكن المتعلم من رؤية هذه الخطوة. سيتم إرسال البريد الإلكتروني تلقائيًا.",
+        "subject_input_placeholder": "اكتب موضوعًا",
+        "subject_input_label": "الموضوع",
+        "email_input_label": "محتوى البريد الإلكتروني",
+        "email_input_label_tooltip": "هذا هو المحتوى الذي سيظهر في صفحة البريد الإلكتروني"
+      },
+      "wait": {
+        "title_input_placeholder": "يرجى إعطاء اسم للخطوة",
+        "title_input_label": "العنوان",
+        "duration_input_label": "تحديد المدة ل",
+        "duration_section_label": "ما هو الوقت المحدد؟"
+      },
+      "meeting": {
+        "title_input_placeholder": "يرجى إعطاء الخطوة اسمًا",
+        "title_input_label": "العنوان",
+        "zoom_meeting_type": "Zoom",
+        "in_person_meeting_type": "اجتماع وجهًا لوجه",
+        "zoom_link_expiration_note": "روابط اجتماع Zoom تنتهي صلاحيتها كل 30 يومًا ، لذلك سيتم إنشاء رابط جديد تلقائيًا.",
+        "copied_to_clipboard": "تم النسخ!",
+        "notifications": {
+          "zoom_link_generation_failure_heading": "خطأ",
+          "zoom_link_generation_failure_txt": "لم نتمكن من إنشاء رابط اجتماع Zoom الخاص بك."
+        },
+        "copy_to_clipboard": "نسخ إلى الحافظة",
+        "meeting_type_input_label": "نوع الاجتماع",
+        "join_button_txt": "انضمام",
+        "meeting_location_required_error_message": "يرجى كتابة موقع الاجتماع",
+        "include_additional_information_button_txt": "تضمين معلومات إضافية",
+        "when": "متى",
+        "duration_input_label": "المدة الزمنية",
+        "hours_input_label": "ساعات",
+        "minutes_input_label": "دقائق",
+        "genrate_meeting_link": "إنشاء رابط الاجتماع",
+        "agenda_input_label": "جدول الأعمال",
+        "selected_files_label": "الملفات المحددة",
+        "selected_files_label_tooltip": "الملفات المحددة",
+        "upload_file_section_label": "تحميل الملف",
+        "upload_file_section_label_extra_info": "(اختياري)",
+        "upload_file_section_label_tooltip": "تحميل الملف",
+        "new_file_label": "ملف جديد",
+        "existing_file_label": "ملف موجود",
+        "file_formats_list": "يمكنك تحميل الملفات بالصيغ التالية: .svg، .png، .jpg، .jpeg، .gif، .pdf، .docx، .xlsx، .pptx، .mp4، .mov، بحجم ملف أقصى 20 ميجابايت",
+        "open_files_manager_button_txt": "تصفح الملفات المتاحة"
+      },
+      "page": {
+        "title_input_placeholder": "يرجى إعطاء خطوتك اسماً",
+        "title_input_label": "العنوان",
+        "text_input_label": "نموذج الصفحة",
+        "text_input_label_tooltip": "هذا هو المحتوى الذي سيتم عرضه في الصفحة"
+      },
+      "quiz": {
+        "add_block_button": "إضافة سؤال",
+        "number_of_quiz_questions": "{n} أسئلة",
+        "title_input_placeholder": "يرجى إعطاء خطوتك اسماً",
+        "title_input_label": "العنوان",
+        "description_input_placeholder": "يرجى كتابة وصف قصير (حد أقصى 140 حرفًا).",
+        "description_input_label": "الوصف",
+        "description_input_label_tooltip": "الوصف مفيد لإظهار المزيد من المعلومات حول الاختبار.",
+        "quiz_passing_section_label": "مرور الاختبار",
+        "quiz_passing_section_label_tooltip": "اختر عدد الأسئلة التي يجب على المتعلم الإجابة عليها للنجاح في هذا الاختبار.",
+        "out_of_number_of_questions": "من بين <b>{n} أسئلة</b>",
+        "attempts_input_label": "المحاولات",
+        "attempts_input_label_tooltip": "عدد المحاولات التي يمكن للمستخدم إجراؤها لنجاح الاختبار"
+      },
+      "quiz_yes_no_block": {
+        "title_input_placeholder": "يرجى إعطاء خطوتك اسماً",
+        "title_input_label": "العنوان",
+        "content_input_label": "المحتوى",
+        "content_input_label_tooltip": "هذا هو المحتوى الذي سيتم عرضه في الصفحة",
+        "icons": "الرموز",
+        "emotions": "المشاعر",
+        "correct_answer_required": "يرجى اختيار الإجابة الصحيحة",
+        "type_input_label": "النوع",
+        "no_button_txt": "لا",
+        "yes_button_txt": "نعم"
+      },
+      "quiz_multiple_choice_block": {
+        "title_input_placeholder": "يرجى إعطاء اسم لخطوتك",
+        "title_input_label": "العنوان",
+        "content_input_label": "المحتوى",
+        "content_input_label_tooltip": "هذا هو المحتوى الذي سيتم عرضه في الصفحة",
+        "correct_answer_required": "يرجى اختيار الإجابة الصحيحة",
+        "choices_section_label": "الاختيارات",
+        "choices_section_label_tooltip": "الخيارات هنا",
+        "shuffle_choices_label": "تبديل",
+        "select_the_correct_answer_message": "يرجى اختيار الإجابات الصحيحة بتحديد المربعات.",
+        "press_enter_to_add_a_new_choice": "اضغط على مفتاح Enter لإضافة خيار جديد",
+        "single_select": "اختيار واحد",
+        "multi_select": "اختيار متعدد",
+        "type_input_label": "النوع"
+      },
+      "quiz_open_question_block": {
+        "title_input_placeholder": "يرجى إعطاء اسم لخطوتك",
+        "title_input_label": "العنوان",
+        "content_input_label": "المحتوى",
+        "typical_answer_input_label": "الإجابة الصحيحة",
+        "type_input_label": "النوع"
+      },
+      "section": {
+        "title_input_placeholder": "يرجى إعطاء اسم لخطوتك",
+        "title_input_label": "العنوان",
+        "content_input_label": "المحتوى",
+        "content_input_label_tooltip": "هذا هو المحتوى",
+        "content_input_placeholder": "يرجى كتابة وصف مختصر (حد أقصى 140 حرفًا)."
+      },
+      "thankyou": {
+        "title_input_placeholder": "يرجى تسمية الخطوة",
+        "title_input_label": "العنوان",
+        "certification_enable_checkbox_label": "منح شهادة",
+        "certifications_select_label": "اختيار الشهادة",
+        "certification_preview_label": "الشهادة",
+        "content_input_label": "المحتوى",
+        "content_input_label_tooltip": "هذا هو المحتوى",
+        "content_input_placeholder": "يرجى كتابة رسالة شكر"
+      },
+      "welcome": {
+        "title_input_placeholder": "يرجى تسمية الخطوة",
+        "title_input_label": "العنوان",
+        "content_input_label": "المحتوى",
+        "content_input_label_tooltip": "هذا هو المحتوى",
+        "content_input_placeholder": "يرجى كتابة رسالة ترحيبية"
+      },
+      "evaluation": {
+        "title_input_placeholder": "يرجى تسمية الخطوة",
+        "title_input_label": "العنوان",
+        "evaluation": "التقييم",
+        "evaluation_type_label": "نوع التقييم"
+      },
+      "Pdf": {
+        "name_input_label": "العنوان",
+        "name_input_placeholder": "يرجى تسمية الدرس",
+        "delete_file_tooltip": "إلغاء التحميل والحذف",
+        "preview_file_section_label": "المعاينة",
+        "replace_file_button_txt": "استبدال الملف",
+        "uploaded_file_section_label": "الملف المحمل",
+        "upload_file_input_label": "تحميل ملف",
+        "file_processing_placeholder_text": "جاري المعالجة..."
+      },
+      "Tincan": {
+        "name_input_label": "العنوان",
+        "name_input_placeholder": "يرجى إعطاء درسك اسمًا",
+        "delete_file_tooltip": "إلغاء التحميل والحذف",
+        "preview_file_section_label": "المعاينة",
+        "replace_file_button_txt": "استبدال الملف",
+        "uploaded_file_section_label": "الملف المحمّل",
+        "upload_file_input_label": "تحميل الملف",
+        "file_processing_placeholder_text": "جاري المعالجة..."
+      },
+      "Video": {
+        "name_input_label": "العنوان",
+        "name_input_placeholder": "يرجى إعطاء درسك اسمًا",
+        "delete_file_tooltip": "إلغاء التحميل والحذف",
+        "preview_file_section_label": "المعاينة",
+        "replace_file_button_txt": "استبدال الملف",
+        "uploaded_file_section_label": "الملف المحمّل",
+        "upload_file_input_label": "تحميل الملف",
+        "file_processing_placeholder_text": "جاري المعالجة..."
+      }
+    },
+    "actions_dropdown": {
+      "duplicate_button_txt": "نسخ",
+      "delete_button_txt": "حذف",
+      "prompts": {
+        "delete_block": {
+          "heading": "حذف كتلة \"{n}\"",
+          "description": "أنت على وشك حذف \"{n}\".",
+          "cancel_button_txt": "إلغاء",
+          "confirmation_button_txt": "تأكيد"
+        }
+      }
+    }
+  },
+  "learning_path_builder": {
+    "add_block": {
+      "heading": "إضافة كتلة جديدة",
+      "heading_on_active": "اختر نوع الكتلة",
+      "sub_heading": "فيديو ، رابط ، دورة ، ملف ...",
+      "sub_heading_on_active": "اختر الكتلة التي تناسب احتياجاتك"
+    },
+    "empty_state": {
+      "heading": "قم بإنشاء الكتلة الأولى الخاصة بك",
+      "sub_heading": "الكتل هي مادة بناء مسار التعلم الخاص بك."
+    },
+    "notifications": {
+      "updated_draft_successfully_heading": "منتهي",
+      "updated_draft_successfully_txt": "تم تحديث مسودتك بنجاح.",
+      "update_draft_failure_heading": "عفوًا!",
+      "update_draft_failure_txt": "حدث خطأ ، وتعذر علينا تحديث مسودتك.",
+      "published_draft_successfully_heading": "منتهي",
+      "published_draft_successfully_txt": "تم نشر مسار التعلم الخاص بك بنجاح.",
+      "publish_draft_failure_heading": "عفوًا!",
+      "publish_draft_failure_txt": "حدث خطأ ما ، لم نتمكن من نشر مسار التعلم الخاص بك."
+    },
+    "prompts": {
+      "publish": {
+        "heading": "نشر المسودة",
+        "content": "بمجرد نشر هذه المسودة ، لن تتمكن من تحريرها.",
+        "cancel_button": "إلغاء",
+        "confirmation_button": "متابعة"
+      }
+    }
+  },
+  "activity_builder": {
+    "edit_activity_modal": {
+      "heading": "إضافة نشاط",
+      "notifications": {
+        "activity_updated_successfully_heading": "منتهي",
+        "activity_updated_successfully_txt": "تم تحديث نشاطك بنجاح."
+      },
+      "activity_name_input_label": "اسم النشاط",
+      "activity_name_input_placeholder": "على سبيل المثال: تفكير بأفكار جديدة",
+      "activity_manager_input_label": "مدير النشاط",
+      "edit_activity_error": "حدث خطأ أثناء تحرير النشاط"
+    },
+    "percentage_of_uploaded_file_message": "{n}% تم التحميل...",
+    "processing_in_progress_message": "جاري المعالجة...",
+    "processing_failure_message": "فشل المعالجة",
+    "notifications": {
+      "draft_update_success_heading": "منتهي",
+      "draft_update_success_txt": "تم تحديث مسودتك بنجاح.",
+      "update_draft_failure_heading": "عفوًا!",
+      "update_draft_failure_txt": "حدث خطأ ، وتعذر علينا تحديث مسودتك.",
+      "unknow_draft_update_error_heading": "عفوًا!",
+      "unknow_draft_update_error_txt": "حدث خطأ ، وتعذر علينا تحديث مسودتك (2).",
+      "published_draft_successfully_heading": "منتهي",
+      "published_draft_successfully_txt": "تم نشر نشاطك بنجاح.",
+      "publish_draft_failure_heading": "عفوًا!",
+      "publish_draft_failure_txt": "حدث خطأ ، وتعذر علينا نشر نشاطك.",
+      "unknow_publish_error_heading": "عفوًا!",
+      "unknow_publish_error_txt": "حدث خطأ ، وتعذر علينا نشر نشاطك (2)."
+    },
+    "prompts": {
+      "publish_draft": {
+        "heading": "نشر المسودة",
+        "description": "بمجرد نشر هذه المسودة ، لن تتمكن من تحريرها.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "متابعة"
+      }
+    }
+  },
+  "activities_pages": {
+    "activities_table": {
+      "heading": "الأنشطة",
+      "new_activity": "أنشطة جديدة",
+      "empty_activities_table_message": "أنشئ أنشطة تعليمية مخصصة تساعد المتعلمين على بناء المعرفة تدريجيًا.",
+      "manager": "المدير",
+      "activity_name": "اسم النشاط",
+      "created": "تم الإنشاء",
+      "time_left": "الوقت المتبقي",
+      "status": "الحالة",
+      "statuses": {
+        "draft": "مسودة",
+        "published": "نُشر",
+        "active": "نشط",
+        "inactive": "غير نشط"
+      }
+    }
+  },
+  "cohorts_pages": {
+    "pending_invitation": "دعوة معلقة",
+    "send_reminder": "إرسال تذكير",
+    "the_student_started_learning": "بدأ",
+    "precentage_of_studens_started_learning": "{n}% من المستخدمين بدأوا",
+    "the_student_started_learning_tooltip": "بدأ",
+    "the_student_completed_learning": "اكتمل",
+    "the_student_completed_learning_tooltip": "اكتمل",
+    "precentage_of_studens_completed_learning": "{n}% من المستخدمين اكتملوا",
+    "learners_table": {
+      "heading": "أفضل المتعلمين",
+      "learner": "المتعلم",
+      "completion_date": "تاريخ الإكمال",
+      "completion_rate": "نسبة الإكمال",
+      "empty_table_message": "لا يوجد متعلمين بدأوا أي مسار تعليمي بعد."
+    },
+    "activity_creation_modal": {
+      "heading": "إضافة نشاط",
+      "name_input_label": "اسم النشاط",
+      "name_input_placeholder": "مثال: ابتكار أفكار جديدة",
+      "manager_input_label": "مدير النشاط",
+      "start_date_input_label": "تاريخ البدء",
+      "end_date_input_label": "تاريخ الانتهاء"
+    },
+    "reminder_email_modal": {
+      "heading": "إرسال بريد إلكتروني للمستخدمين",
+      "message_bar_content": "هناك {n} مستخدمين لم ينضموا بعد.",
+      "message_input_label": "شجعهم على البدء في التعلم:",
+      "submit_button": "إرسال البريد الإلكتروني"
+    },
+    "notifications": {
+      "acitivity_creation_failure": "حدث خطأ أثناء إنشاء النشاط",
+      "reminder_content_field_required": "يرجى إدخال المحتوى أولاً",
+      "reminder_sending_failure": "حدث خطأ أثناء إرسال التذكير"
+    }
+  },
+  "cohorts_overview_page": {
+    "cohorts_table": {
+      "heading": "مجموعات مسار التعلم",
+      "assign_learners_button": "عيّن المتعلمين",
+      "empty_message": "تعد المجموعات الجماعية طريقة رائعة لتحليل بيانات مجموعة من المتعلمين <br /> الذين يتعلمون بنشاط معًا في مسار مخصص لهم فقط.",
+      "name": "اسم",
+      "lead": "يقود",
+      "started": "بدأت",
+      "status": "حالة",
+      "statuses": {
+        "active": "نشط",
+        "passed": "تم النجاح",
+        "failed": "فشل",
+        "completed": "اكتمل",
+        "finished": "انتهى",
+        "inprogress": "جاري التقدم",
+        "pending": "قيد الانتظار"
+      },
+      "learners": "المتعلمين",
+      "actions": "أجراءات"
+    },
+    "assign_learners_modal": {
+      "heading": "عيّن المتعلمين",
+      "cohort_name_input_label": "اسم المجموعة النموذجية",
+      "cohort_name_input_placeholder": "اسم المجموعة النموذجية",
+      "learning_path_lead_input_label": "قيادة مسار التعلم",
+      "learning_path_lead_input_tooltip": "حدد القائد",
+      "add_learners_input_label": "أضف المتعلمين",
+      "learners_selection_input_label": "المتعلمين المختارين",
+      "learners_selection_input_placeholder": "اكتب اسم المتعلم أو البريد الإلكتروني",
+      "learners_will_be_added_to_this_learning_path": "سيتم إضافة المتعلمين إلى مسار التعلم هذا",
+      "assign_learner_button": "تعيين",
+      "validation_messages": {
+        "cohort_or_group_is_required": "حدد مجموعة أو مجموعة نموذجية واحدة على الأقل",
+        "learner_field_is_required": "حدد متعلمًا واحدًا على الأقل",
+        "failed_assigning_learners": "خطأ في تعيين المتعلمين"
+      },
+      "notifications": {
+        "learners_assigned_success_heading": "نجاح",
+        "learners_assigned_success_txt": "تم تعيين المتعلمين بنجاح"
+      },
+      "assign_learner_to": [
+        {
+          "heading": "أضف منظمة",
+          "description": "ستتم إضافة جميع المستخدمين إلى المجموعة النموذجية الحالية."
+        },
+        {
+          "heading": "أضف مجموعة",
+          "description": "أضف متعلمين من مجموعات أو أفواج موجودة"
+        },
+        {
+          "heading": "أضف المتعلمين",
+          "description": "أضف فقط المتعلمين المختارين."
+        }
+      ]
+    }
+  },
+  "cohort_insights_page": {
+    "cohort_insights": "تحليلات الفصول الدراسية",
+    "insight_details_button_txt": "إظهار كافة التفاصيل",
+    "send_email": "إرسال بريد إلكتروني",
+    "delete": "حذف",
+    "users_sidebar": {
+      "heading": "مستخدمو الفصل الدراسي",
+      "search_input_placeholder": "البحث بالاسم أو البريد الإلكتروني...",
+      "send_email": "إرسال بريد إلكتروني",
+      "delete_user": "حذف",
+      "message_bar": {
+        "sending_email_error": "خطأ في إرسال البريد الإلكتروني",
+        "loading_users_error": "خطأ في تحميل مستخدمي الفصل الدراسي. {error}`"
+      },
+      "notifications": {
+        "deleting_user_failure_heading": "خطأ في حذف المستخدم من الفصل الدراسي"
+      },
+      "prompts": {
+        "delete_user": {
+          "heading": "حذف المستخدم من الفصل الدراسي",
+          "description": "أنت على وشك حذف { fullName }",
+          "cancel_button_txt": "إلغاء",
+          "confirmation_button_txt": "تأكيد"
+        }
+      },
+      "email_reminder_modal": {
+        "heading": "بريد إلكتروني جديد",
+        "email_input_label": "البريد الإلكتروني",
+        "subject_input_label": "الموضوع",
+        "subject_input_placeholder": "الموضوع",
+        "message_input_label": "الرسالة",
+        "message_input_placeholder": "",
+        "submit_button_txt": "إرسال البريد الإلكتروني"
+      }
+    }
+  },
+  "cohort_insight_details_page": {
+    "assignment": {
+      "discussion": "المناقشة | المناقشات",
+      "graded": "متدرج",
+      "recieved": "تم الاستلام",
+      "out_of_number": "من {n}",
+      "average_grade_points": "متوسط نقاط الدرجات",
+      "view_submission": "عرض التقديم | عرض التقديمات",
+      "details_table": {
+        "heading": "درجات المتعلمين",
+        "export_button_txt": "تصدير كـ",
+        "export_button_options": ["CSV"],
+        "learner": "المتعلم | المتعلمون",
+        "date": "التاريخ",
+        "grade_point": "نقطة الدرجة",
+        "view_date": "تاريخ العرض",
+        "status": "الحالة",
+        "empty_table_message": "لا تتوافر بيانات"
+      },
+      "notifications": {
+        "learners_export_error_heading": "خطأ في تصدير المتعلمين",
+        "learners_export_error_txt": "خطأ في تصدير نشاط المتعلمين بتنسيق CSV، {errorInfo}"
+      },
+      "discussion_modal": {
+        "heading": "مناقشات التعيين",
+        "tabs": {
+          "content": "المحتوى",
+          "discussion": "المناقشة | المناقشات",
+          "assignment": "التكليف"
+        }
+      }
+    },
+    "file": {
+      "heading": "نشاط المتعلمين",
+      "export_button_txt": "تصدير بتنسيق",
+      "export_button_options": ["CSV"],
+      "empty_table_message": "لا تتوافر بيانات",
+      "view": "مشاهدة",
+      "out_of_number": "من {n}",
+      "percentage_of_users_viewed": "{n}% من المستخدمين شاهدوا",
+      "number_of_views": "عدد المشاهدات",
+      "learner": "المتعلم",
+      "downloaded_files": "الملفات التي تم تحميلها",
+      "action": "عملية",
+      "view_downloaded_files": "عرض الملفات المحملة",
+      "number_of_downloaded_files": "تم التحميل {n}",
+      "download": "تحميل",
+      "click": "النقر",
+      "files_downloads_section_tooltip": "عدد مرات تحميل الملفات",
+      "links_downloads_section_tooltip": "عدد نقرات الروابط",
+      "notifications": {
+        "exporting_learners_activity_failure_heading": "خطأ في تصدير نشاط المتعلمين",
+        "exporting_learners_activity_failure_txt": "خطأ في تصدير نشاط المتعلمين بتنسيق CSV ، {errorInfo}"
+      }
+    },
+    "link": {
+      "heading": "نشاط المتعلمين",
+      "export_button_txt": "تصدير بتنسيق",
+      "export_button_options": ["CSV"],
+      "empty_table_message": "لا تتوافر بيانات",
+      "view": "مشاهدة",
+      "out_of_number": "من {n}",
+      "percentage_of_users_viewed": "{n}% من المستخدمين شاهدوا",
+      "number_of_views": "عدد المشاهدات",
+      "learner": "المتعلم",
+      "clicked_links": "الروابط التي تم النقر عليها",
+      "action": "عملية",
+      "view_clicked_links": "عرض الروابط التي تم النقر عليها",
+      "number_of_clicked_links": "تم النقر على {n}",
+      "click": "النقر",
+      "notifications": {
+        "exporting_learners_activity_failure_heading": "خطأ في تصدير نشاط المتعلمين",
+        "exporting_learners_activity_failure_txt": "خطأ في تصدير نشاط المتعلمين بتنسيق CSV ، {errorInfo}"
+      }
+    },
+    "email": {
+      "sent": "تم الإرسال",
+      "out_of_number": "من أصل {n}",
+      "on_date": "في {n}",
+      "sent_tooltip": "الرسائل الإلكترونية المُرسلة إلى الطلاب",
+      "recieved": "تم الاستلام",
+      "send_again": "إعادة الإرسال",
+      "recieved_tooltip": "الرسائل الإلكترونية المُستلمة من الطلاب",
+      "opened": "تم الفتح",
+      "percentage_of_users_opened": "{n}% من المستخدمين فتحوا الرسالة",
+      "opened_tooltip": "الطلاب الذين فتحوا الرسالة الإلكترونية",
+      "open_date": "تاريخ الفتح",
+      "not_opened": "لم يتم الفتح",
+      "prompts": {
+        "send_email_prompt": {
+          "heading": "إعادة إرسال البريد الإلكتروني",
+          "description": "أنت على وشك إعادة إرسال \"{n}\" بريد إلكتروني مرة أخرى",
+          "cancel_button_txt": "إلغاء",
+          "confirmation_button_txt": "تأكيد"
+        }
+      },
+      "notifications": {
+        "sending_email_error_heading": "خطأ في إعادة إرسال البريد الإلكتروني",
+        "resending_email_success_heading": "تم إعادة إرسال البريد الإلكتروني بنجاح",
+        "resending_email_success_txt": "تم إرسال \"{n}\" البريد الإلكتروني مرة أخرى بنجاح",
+        "exporting_learners_activity_failure_heading": "خطأ في تصدير نشاط الطلاب",
+        "exporting_learners_activity_failure_txt": "خطأ في تصدير نشاط الطلاب كـ CSV، {errorInfo}"
+      },
+      "details_table": {
+        "heading": "نشاط الطلاب",
+        "export_button_txt": "تصدير كـ",
+        "export_button_options": ["CSV"],
+        "learner": "الطالب | الطلاب",
+        "view_date": "تاريخ العرض",
+        "status": "الحالة",
+        "empty_table_message": "لا توجد بيانات"
+      }
+    },
+    "page": {
+      "views": "المشاهدات",
+      "out_of_number": "من {n}",
+      "percentage_of_users_viewed": "{n}% من المستخدمين شاهدوا",
+      "views_tooltip": "عدد المشاهدات",
+      "view_date": "تاريخ المشاهدة",
+      "notifications": {
+        "exporting_learners_activity_failure_heading": "خطأ في تصدير نشاط المتعلمين",
+        "exporting_learners_activity_failure_txt": "خطأ في تصدير نشاط المتعلمين كملف CSV، {errorInfo}"
+      },
+      "details_table": {
+        "heading": "نشاط المتعلمين",
+        "export_button_txt": "تصدير كـ",
+        "export_button_options": ["CSV"],
+        "learner": "متعلم | متعلمون",
+        "view_date": "تاريخ المشاهدة",
+        "empty_table_message": "لا تتوفر بيانات"
+      }
+    },
+    "course": {
+      "not_started": "لم يبدأ",
+      "out_of_number": "من بين {n}",
+      "percentage_of_users_not_started": "{n}% من المستخدمين لم يبدأوا",
+      "not_started_tooltip": "عدد المستخدمين الذين لم يبدأوا",
+      "in_progress": "قيد التقدم",
+      "percentage_of_users_in_progress": "{n}% من المستخدمين في طور التقدم",
+      "in_progress_tooltip": "عدد المستخدمين الذين في طور التقدم",
+      "completed": "اكتمل",
+      "percentage_of_users_completed": "{n}% من المستخدمين أكملوا",
+      "completed_tooltip": "عدد المستخدمين الذين أكملوا",
+      "notifications": {
+        "exporting_learners_activity_failure_heading": "خطأ في تصدير نشاط المتعلمين",
+        "exporting_learners_activity_failure_txt": "خطأ في تصدير نشاط المتعلمين كملف CSV، {errorInfo}"
+      },
+      "details_table": {
+        "heading": "نشاط المتعلمين",
+        "export_button_txt": "تصدير كـ",
+        "export_button_options": ["CSV"],
+        "learner": "متعلم | متعلمون",
+        "started": "بدأ",
+        "progress_percentage": "التقدم (%)",
+        "completion_rate": "معدل الإنجاز",
+        "empty_table_message": "لا توجد بيانات"
+      },
+      "lessons_progress_modal": {
+        "heading": "تقدم الدروس",
+        "error_loading_selected_user_stats": "خطأ في تحميل إحصائيات المستخدم المحدد {errorInfo}",
+        "total_progress": "إجمالي التقدم",
+        "unknown_lesson_type": "نوع الدرس غير معروف: {n}",
+        "error": "عذرا! حدث خطأ:"
+      }
+    },
+    "quiz": {
+      "responses": "الإجابات",
+      "out_of_number": "من بين {n}",
+      "percentage_of_students_who_responded": "{n}% من الطلاب قاموا بالرد.",
+      "responses_tooltip": "عدد الطلاب الذين أجابوا على الاختبار.",
+      "passed": "نجح",
+      "percentage_of_students_who_passed": "{n}% من الطلاب نجحوا.",
+      "passed_tooltip": "عدد الطلاب الذين نجحوا.",
+      "failed": "فشل",
+      "percentage_of_students_who_failed": "{n}% من الطلاب فشلوا.",
+      "failed_tooltip": "عدد الطلاب الذين فشلوا.",
+      "notifications": {
+        "exporting_learners_activity_failure_heading": "خطأ في تصدير أنشطة الطلاب",
+        "exporting_learners_activity_failure_txt": "خطأ في تصدير أنشطة الطلاب كملف CSV، {errorInfo}"
+      },
+      "details_table": {
+        "heading": "أنشطة الطلاب",
+        "export_button_txt": "تصدير كـ",
+        "export_button_options": ["CSV"],
+        "empty_table_message": "لا تتوفر بيانات",
+        "view_all_responses": "عرض كل الإجابات",
+        "statuses": {
+          "failed": "فشل",
+          "passed": "تم النجاح",
+          "not start yet": "لم يبدأ بعد",
+          "completed": "اكتمل",
+          "pending": "قيد الانتظار"
+        }
+      },
+      "student_responses_modal": {
+        "heading": "إجابات الطلاب",
+        "pending_correction": "تحتاج إلى مراجعة",
+        "passed": "نجح",
+        "failed": "فشل",
+        "pending": "قيد الانتظار"
+      },
+      "yes_no_block": {
+        "correct": "صحيح",
+        "incorrect": "خطأ",
+        "out_of_number": "من أصل {n}",
+        "percentage_of_students_who_passed": "{n}% من الطلاب نجحوا.",
+        "percentage_of_students_who_failed": "{n}% من الطلاب فشلوا.",
+        "correct_tooltip": "عدد الطلاب الذين نجحوا.",
+        "incorrect_tooltip": "عدد الطلاب الذين فشلوا.",
+        "correct_answer": "الإجابة الصحيحة",
+        "notifications": {
+          "exporting_learners_activity_failure_heading": "خطأ في تصدير أنشطة المتعلمين",
+          "exporting_learners_activity_failure_txt": "خطأ في تصدير أنشطة المتعلمين كملف CSV، {errorInfo}"
+        },
+        "details_table": {
+          "heading": "أنشطة المتعلمين",
+          "not_started_yet": "لم يبدأ بعد",
+          "export_button_txt": "تصدير كـ",
+          "export_button_options": ["CSV"],
+          "search_input_placeholder": "البحث",
+          "filter_input_options": {
+            "all_responses": "جميع الإجابات",
+            "yes": "نعم",
+            "no": "لا"
+          },
+          "empty_table_message": "لا تتوفر بيانات"
+        }
+      },
+      "open_question_block": {
+        "correct": "صحيح",
+        "incorrect": "خطأ",
+        "out_of_number": "من أصل {n}",
+        "percentage_of_students_who_passed": "{n}% من الطلاب اجابوا بشكل صحيح",
+        "percentage_of_students_who_failed": "{n}% من الطلاب اجابوا بشكل خاطئ",
+        "correct_tooltip": "عدد الطلاب الذين أجابوا بشكل صحيح.",
+        "incorrect_tooltip": "عدد الطلاب الذين أجابوا بشكل خاطئ.",
+        "correct_answer": "الإجابة الصحيحة",
+        "wrong_answer": "الإجابة الخاطئة",
+        "typical_answer": "الإجابة النموذجية",
+        "not_started_yet": "لم يبدأ بعد",
+        "notifications": {
+          "exporting_learners_activity_failure_heading": "خطأ في تصدير نشاط الطلاب",
+          "exporting_learners_activity_failure_txt": "خطأ في تصدير نشاط الطلاب كملف CSV، {errorInfo}"
+        },
+        "details_table": {
+          "heading": "نشاط الطلاب",
+          "export_button_txt": "تصدير كـ",
+          "export_button_options": ["CSV"],
+          "search_input_placeholder": "بحث",
+          "filter_input_options": {
+            "all_responses": "كل الإجابات",
+            "correct": "صحيحة",
+            "incorrect": "خاطئة"
+          },
+          "empty_table_message": "لا توجد بيانات متاحة"
+        }
+      },
+      "multiple_choice_block": {
+        "correct": "صحيح",
+        "incorrect": "خاطئ",
+        "out_of_number": "من أصل {n}",
+        "percentage_of_students_who_passed": "{n}% من الطلاب نجحوا.",
+        "percentage_of_students_who_failed": "{n}% من الطلاب رسبوا.",
+        "correct_tooltip": "عدد الطلاب الذين نجحوا.",
+        "incorrect_tooltip": "عدد الطلاب الذين رسبوا.",
+        "correct_answer": "الإجابة الصحيحة",
+        "wrong_answer": "الإجابة الخاطئة",
+        "responses_insights_heading": "الردود",
+        "not_started_yet": "لم يبدأ بعد",
+        "not_yet": "لم يتم بعد",
+        "notifications": {
+          "exporting_learners_activity_failure_heading": "خطأ في تصدير نشاط الطلاب",
+          "exporting_learners_activity_failure_txt": "خطأ في تصدير نشاط الطلاب كملف CSV، {errorInfo}"
+        },
+        "details_table": {
+          "heading": "نشاط الطلاب",
+          "export_button_txt": "تصدير كـ",
+          "export_button_options": ["CSV"],
+          "search_input_placeholder": "بحث",
+          "filter_input_options": {
+            "all_responses": "جميع الردود",
+            "correct": "صحيح",
+            "incorrect": "خاطئ"
+          },
+          "empty_table_message": "لا تتوفر بيانات"
+        }
+      }
+    }
+  },
+  "student_area": {
+    "globals": {
+      "all_categories": "جميع الفئات",
+      "all_statuses": "كل الحالات",
+      "not_started": "لم يبدأ",
+      "in_progress": "في تَقَدم",
+      "completed": "مكتمل",
+      "available_until_date": "متاح حتى {n}",
+      "past_due": "فات موعد الاستحقاق",
+      "total_progress": "التقدم الكلي"
+    },
+    "learning_path_statuses": {
+      "in progress": "قيد التقدم",
+      "not started": "لم يبدأ",
+      "completed": "اكتمل",
+      "pending graded": "في إنتظار التصحيح"
+    },
+    "blocks": {
+      "assignment": {
+        "heading": "التسليمات",
+        "tabs": {
+          "content": "المحتوى",
+          "discussion": "النقاش | النقاشات",
+          "assignment": "الواجب"
+        },
+        "message_bar": {
+          "success": "رائع، لقد نجحت في هذا الواجب وحصلت على {points} نقطة.",
+          "failure": "عذرًا، لم تنجح في هذا الواجب وحصلت على {points} نقطة.",
+          "minimum_selected_score": "الحد الأدنى للدرجة الناجحة المحددة هو {n}"
+        },
+        "notifications": {
+          "failed_fetching_discussion_heading": "خطأ",
+          "failed_fetching_discussion_txt": "لم نتمكن من عرض هذه المناقشة ، يرجى المحاولة مرة أخرى بعد فترة.",
+          "submit_submission_success_heading": "منتهي!",
+          "submit_submission_success_txt": "تم تقديم واجبك بنجاح.",
+          "file_upload_failure_heading": "خطأ",
+          "file_upload_failure_txt": "لم نتمكن من تحميل ملفك ، يرجى المحاولة مرة أخرى بعد فترة أو الاتصال بالدعم.",
+          "assignment_submission_success_heading": "تم الإرسال بنجاح",
+          "assignment_submission_success_txt": "لقد قمت للتو بإرسال واجب جديد بنجاح.",
+          "assignment_submission_unknow_failure_heading": "هناك خطأ ما",
+          "assignment_submission_unknow_failure_txt": "لم نتمكن من إرسال واجبك ، يرجى المحاولة مرة أخرى بعد قليل.",
+          "assignment_submission_unknow_failure2_heading": "هناك خطأ ما",
+          "assignment_submission_unknow_failure2_txt": "لم نتمكن من إرسال واجبك ، يرجى المحاولة مرة أخرى بعد فترة (2).",
+          "grade_submission_failure_heading": "خطأ",
+          "grade_submission_failure_txt": "لم نتمكن من إرسال الدرجة ، يرجى المحاولة مرة أخرى بعد قليل.",
+          "reply_submission_success_heading": "تم الإرسال بنجاح",
+          "reply_submission_success_txt": "لقد أرسلت للتو ردًا جديدًا بنجاح.",
+          "reply_submission_failure_heading": "تم الإرسال بنجاح",
+          "reply_submission_failure_txt": "لم نتمكن من إرسال ردك ، يرجى المحاولة مرة أخرى بعد فترة.",
+          "reply_submission_failure_heading2": "تم الإرسال بنجاح",
+          "reply_submission_failure_txt2": "لم نتمكن من إرسال ردك ، يرجى المحاولة مرة أخرى بعد فترة.",
+          "upload_attachment_failure_heading": "خطأ",
+          "upload_attachment_failure_txt": "لم نتمكن من تحميل الملف المرفق الخاص بك ، يرجى المحاولة مرة أخرى بعد فترة أو الاتصال بالدعم."
+        },
+        "start_discussion": "بدء المناقشة",
+        "upload_assignment_label": "رفع الواجب",
+        "upload_file_label": "تحميل الملف",
+        "total_number": "{n} في المجموع",
+        "open_reply_box_button_txt": "إضافة رد",
+        "filter_options": {
+          "graded": "المستخدمون الذين تم تقييمهم",
+          "not_graded": "المستخدمون الذين لم يتم تقييمهم"
+        },
+        "no_graded_submissions_message": "لا توجد تقديمات تم تقييمها حاليًا.",
+        "no_available_submissions_message": "لا توجد تقديمات متاحة حاليًا للتقييم.",
+        "grade_popup": {
+          "heading": "تقييم المتعلم",
+          "description": "يمكنك إعطاء تقييم واحد ولا يمكنك تغييره في وقت لاحق."
+        },
+        "discussion_textarea_placeholder": "اكتب هنا...",
+        "discussion_submit_button_txt": "إرسال",
+        "empty_discussion_message": "بدء المناقشة",
+        "grading_info": {
+          "grades": "التقييم: {n}",
+          "not_graded": "لم يتم التقييم"
+        },
+        "attach_files_input_label": "إرفاق الملفات",
+        "discussion_attachment_file_label": "الملف المرفق"
+      },
+      "file": {
+        "notifications": {
+          "download_success_heading": "تم التنزيل بنجاح",
+          "download_failure_heading": "فشل التنزيل",
+          "download_failure_txt": "يرجى المحاولة مرة أخرى في وقت لاحق."
+        }
+      },
+      "link": {},
+      "meeting": {
+        "notifications": {
+          "download_success_heading": "تم التنزيل بنجاح",
+          "download_failure_heading": "فشل التنزيل",
+          "download_failure_txt": "يرجى المحاولة مرة أخرى في وقت لاحق."
+        },
+        "hours_and_minutes": "{h} س {m} د",
+        "additional_info_button_txt": "معلومات إضافية",
+        "join_meeting_button_txt": "الانضمام إلى الاجتماع",
+        "agenda_section_label": "الأجندة",
+        "attachment_section_label": "المرفقات"
+      },
+      "quiz": {
+        "start_the_quiz_button_txt": "ابدأ الاختبار",
+        "submit_answers_button_txt": "إرسال الإجابات",
+        "notifications": {
+          "answers_submission_failure_heading": "خطأ",
+          "answers_submission_failure_txt": "لم نتمكن من تقديم إجاباتك، يرجى المحاولة مرة أخرى في وقت لاحق.",
+          "answers_submission_success_heading": "تم بنجاح",
+          "answers_submission_success_txt": "تم تقديم إجاباتك بنجاح!",
+          "unknown_answers_submission_failure_heading": "خطأ",
+          "unknown_answers_submission_failure_txt": "لم نتمكن من تقديم إجاباتك، يرجى المحاولة مرة أخرى في وقت لاحق.",
+          "submission_validation_failure_heading": "فشل التحقق",
+          "submission_validation_failure_txt": "بعض الحقول ناقصة أو غير صالحة، يرجى ملءها بالبيانات الصحيحة."
+        },
+        "messages": {
+          "requirements_for_passing_the_quiz": "يجب عليك الإجابة على ما لا يقل عن {numOfRequiredQuestionsForPassing} من الأسئلة من بين {numberOfQuizBlocks} للنجاح في هذا الاختبار.",
+          "pending_review": "بعض إجاباتك قيد المراجعة. يرجى الانتظار للحصول على النتيجة النهائية.",
+          "retake_quiz": "يمكنك إعادة هذا الاختبار مرة أخرى، العدد المتبقي من المحاولات: {numberOfAttemptsLeft}.",
+          "student_failed": "عذرًا، لم تنجح في اجتياز هذا الاختبار بـ {studentScore} إجابة صحيحة من أصل {quizTotalScore}.",
+          "student_succeeded": "رائع، لقد نجحت في اجتياز هذا الاختبار بـ {studentScore} إجابة صحيحة من أصل {quizTotalScore}."
+        },
+        "multiple_choice_block": {
+          "only_once_choice_is_accepted": "يتم قبول اختيار واحد فقط.",
+          "multiple_choices_are_accepted": "يتم قبول اختيارات متعددة.",
+          "required_answer": "يرجى اختيار إجابة واحدة على الأقل"
+        },
+        "open_question_block": {
+          "answer_input_placeholder": "اكتب إجابتك هنا...",
+          "typical_answer_section_label": "الإجابة النموذجية"
+        },
+        "yes_no_block": {
+          "required_answer": "يرجى اختيار نعم أو لا"
+        }
+      },
+      "section": {
+        "get_started_button_txt": "ابدأ"
+      },
+      "wait": {
+        "next_step_will_start_after_time": "سيبدأ الخطوة التالية بعد",
+        "you_can_proceed": "يمكنك المتابعة"
+      }
+    },
+    "learning_paths_page": {
+      "heading": " مسار تعلّمي",
+      "heading_label": "{n} في المجمل",
+      "search_input_placeholder": "البحث",
+      "warnings_and_messages": {
+        "learning_path_pending_grade": "مسار التعلّم ما زال قيد الإنجاز في انتظار تقييم المدير.",
+        "no_results": "لم يتم العثور على أي نتائج"
+      },
+      "learning_path_side_menu_tabs": {
+        "my_learning": "مسار تعلّمي",
+        "activities": "الأنشطة {n}"
+      },
+      "notifications": {
+        "selecting_activity_error_heading": "خطأ في اختيار النشاط",
+        "selecting_activity_error_txt": "حدث خطأ أثناء اختيار النشاط"
+      },
+      "next_up_button_txt": "التالي",
+      "previous_button_txt": "السابق",
+      "activity_will_be_available_soon": "سيتم توفير هذا النشاط قريبًا. ترقبي تاريخ البدء.",
+      "time_left_to_start": "{n} متبقي للبدء",
+      "time_left_finish": "{n} متبقي للانتهاء",
+      "passed_due_date": "تم تجاوز تاريخ الاستحقاق",
+      "no_activities": "لا يوجد أنشطة",
+      "pending_grade": "في إنتظار التصحيح",
+      "no_results": "لم يتم العثور على أي نتائج"
+    },
+    "activities_page": {
+      "heading": "نشاطاتي",
+      "navigation": {
+        "my_activities": "نشاطاتي"
+      },
+      "no_results": "لم يتم العثور على أي نتائج"
+    },
+    "dashboard_page": {
+      "navigation": {
+        "dashboard": "لوحة القيادة"
+      },
+      "expire_on_date": "ينتهي في {n}",
+      "progress_percentage": "{n}% متبقي",
+      "lates_progress_section_heading": "آخر تقدّم لك",
+      "overview_section_heading": "نظرة عامة",
+      "completed_courses": "الدورات المكتملة",
+      "archieved_certifications": "الشهادات المحصلة",
+      "upcoming_meetings_section_heading": "الاجتماعات القادمة",
+      "no_learning_paths_founds": "تساعد مسارات التعلّم في بناء المعرفة بشكل تدريجي من خلال مجموعة من الأنشطة التعليمية عبر الإنترنت",
+      "no_activities_found": "تعد الأنشطة مسارات تعلّم شخصية",
+      "no_meetings_to_attend": "لا توجد اجتماعات للحضور"
+    },
+    "certifications_page": {
+      "navigation": {
+        "certifications": "الشهادات"
+      },
+      "title": "الشهادات",
+      "no_results": "لم يتم العثور على أي نتائج",
+      "you_dont_have_certificates": "ليس لديك أي شهادات"
+    },
+    "learning_path_sidemenu": {
+      "number_of_questions_in_quiz": "{n} أسئلة",
+      "lectures_progress_in_quiz": "{completed}/{all} محاضرات"
+    }
+  },
+  "resources_page": {
+    "search_input_placeholder": "البحث",
+    "filter_select_placeholder": "تصفية الموارد",
+    "add_resource": "إضافة مورد",
+    "empty_result_heading": "أضف مواد تعليمية مختلفة. يمكن أن تتضمن هذه الموارد مستندات ومقاطع فيديو وصورًا.",
+    "no_results": "لم يتم العثور على أي نتائج",
+    "table": {
+      "file_name": "اسم الملف",
+      "date_uploaded": "تاريخ الرفع",
+      "uploaded_by": "رفع بواسطة",
+      "actions": "الإجراءات"
+    },
+    "add_modal": {
+      "heading": "إضافة مورد",
+      "link_or_file": "هل تريد إضافة رابط أم ملف؟",
+      "file": "ملف",
+      "file_upload_label": "تحميل الملف",
+      "file_title_label": "العنوان",
+      "file_title_placeholder": "على سبيل المثال: العلوم البيانات",
+      "file_add_resource": "إضافة المورد",
+      "file_cancel_upload": "إلغاء الرفع",
+      "link": "رابط",
+      "link_input_label": "رابط المورد",
+      "link_title_label": "العنوان",
+      "link_title_placeholder": "على سبيل المثال: العلوم البيانات",
+      "link_add_resource": "إضافة المورد"
+    },
+    "validation_messages": {
+      "url_is_not_valid": "هذا ليس رابط صالح"
+    },
+    "filter": {
+      "documents": "مستندات",
+      "videos": "مقاطع الفيديو",
+      "images": "الصور",
+      "links": "روابط"
+    },
+    "prompts": {
+      "delete_resource": {
+        "heading": "حذف المورد",
+        "description": "أنت على وشك حذف مورد.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      }
+    },
+    "notifications": {
+      "resource_deletion_success_heading": "تم الحذف!",
+      "resource_deletion_success_txt": "تم حذف المورد بنجاح.",
+      "resource_deletion_failure_heading": "خطأ",
+      "resource_deletion_failure_txt": "لم نتمكن من حذف المورد، يرجى المحاولة مرة أخرى في غضون بضع دقائق أو الاتصال بالدعم.",
+      "resource_addition_success_heading": "تم!",
+      "resource_addition_success_txt": "تمت إضافة المورد بنجاح.",
+      "file_upload_failure_heading": "خطأ",
+      "file_upload_failure_txt": "لم نتمكن من تحميل ملفك، يرجى المحاولة مرة أخرى في غضون بضع دقائق أو الاتصال بالدعم.",
+      "link_addition_failure_heading": "خطأ",
+      "link_addition_failure_txt": "لم نتمكن من إضافة الرابط الخاص بك، يرجى المحاولة مرة أخرى في غضون بضع دقائق أو الاتصال بالدعم.",
+      "file_download_success_heading": "تم التنزيل بنجاح",
+      "file_download_failure_heading": "فشل التنزيل",
+      "file_download_failure_txt": "يرجى المحاولة مرة أخرى في وقت لاحق."
+    },
+    "linked_resource_tooltip": "لا يمكن حذف الموارد المرتبطة بالأنشطة أو المجموعات.",
+    "you_can_delete_your_own_resources_only": "لا يمكنك حذف الموارد التي لا تخصك."
+  },
+  "components": {
+    "file_info_component": {
+      "notifications": {
+        "downloaded_file_successfully_heading": "تم التنزيل بنجاح",
+        "downloaded_file_failure_heading": "فشل التنزيل",
+        "downloaded_file_failure_txt": "يرجى المحاولة مرة أخرى في وقت لاحق."
+      },
+      "preview_file_button_txt": "معاينة الملف",
+      "download_file_button_txt": "تحميل الملف",
+      "delete_file_button_txt": "حذف الملف"
+    }
+  },
+  "500_page": {
+    "title": "خطأ داخلي في الخادم 500 - LXPIA",
+    "heading": "عذراً! خطأ داخلي في الخادم",
+    "description": "عذراً، حدث خطأ داخلي في الخادم. يرجى التحلي بالصبر أو المحاولة مرة أخرى لاحقًا.",
+    "go_home_button_txt": "الذهاب إلى الصفحة الرئيسية"
+  },
+  "404_page": {
+    "title": "لم يتم العثور على الصفحة 404 - LXPIA",
+    "heading": "عذراً! الصفحة غير موجودة",
+    "description": "عذراً، الصفحة التي تبحث عنها غير موجودة أو تم نقلها. الرجاء العودة إلى الصفحة الرئيسية.",
+    "go_home_button_txt": "الذهاب إلى الصفحة الرئيسية"
+  },
+  "home_page": {
+    "latest_learning_path_draft": "مسودة آخر مسار تعليمي",
+    "created_on_date": "تم الإنشاء {n}",
+    "organization_overview": "نظرة عامة على المؤسسة",
+    "view_all": "عرض الكل",
+    "learners_certifications": "شهادات المتعلمين",
+    "upcoming_meetings": "الاجتماعات القادمة",
+    "latest_learning_paths": "آخر مسارات التعليم",
+    "latest_learning_paths_section_description": "تساعد مسارات التعلم على بناء المعرفة تدريجياً من خلال مجموعة من الأنشطة التعليمية الإلكترونية",
+    "new_learning_path": "مسار تعليمي جديد",
+    "meeting_section": {
+      "location_section_label": "الموقع",
+      "additional_info_section_label": "معلومات إضافية",
+      "join_meeting_button_txt": "الانضمام للاجتماع",
+      "no_results_found": "لا توجد اجتماعات للحضور",
+      "number_of_meeting_learners": "{n} متعلم | {n} متعلمين"
+    },
+    "assignments_section": {
+      "heading": "المهام غير المصنفة",
+      "table": {
+        "name": "الاسم",
+        "not_graded": "غير مصنف",
+        "error": "حدث خطأ أثناء تحميل المهام غير المصنفة",
+        "no_results": "لا توجد نتائج",
+        "users_count": "{current} / {max} مستخدمين"
+      }
+    },
+    "learners_section": {
+      "heading": "أفضل المتعلمين",
+      "select_learning_path_and_cohort": "يرجى تحديد مسار تعليمي ومجموعة أولاً",
+      "no_results": "لا توجد نتائج"
+    }
+  },
+  "learning_history_page": {
+    "card_heading": "سجل التعلم",
+    "search_input_placeholder": "بحث",
+    "filter_date_title": "مرشح التاريخ",
+    "filter_activity_status_title": "مرشح حالة النشاط",
+    "filter_activity_status_all": "كل حالات النشاط",
+    "empty_message": "يساعد سجل التعلم على تتبع كل إجراء ونشاط لجميع المتعلمين",
+    "table_columns": [
+      "المستخدم",
+      "الإجراء",
+      "النشاط",
+      "تاريخ النشاط",
+      "حالة النشاط"
+    ],
+    "no_results": "لا توجد نتائج"
+  },
+  "programs_page": {
+    "program_creation_error_message": "حدث خطأ أثناء إنشاء البرنامج",
+    "heading_label": "{n} في المجموع",
+    "prompts": {
+      "delete_program": {
+        "heading": "حذف العنصر",
+        "description": "أنت على وشك حذف عنصر.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      }
+    },
+    "notifications": {
+      "deleting_program_error_heading": "حدث خطأ أثناء حذف البرنامج"
+    },
+    "new_program_button_txt": "إضافة برنامج",
+    "search_input_placeholder": "بحث",
+    "number_of_courses": "{n} دورة | {n} دورات",
+    "no_results": "لا توجد نتائج",
+    "no_programs_message": "البرنامج هو طريقة لتجميع مجموعة فرعية من الدورات",
+    "new_program_modal": {
+      "heading": "برنامج جديد",
+      "program_name_input_label": "اسم البرنامج",
+      "program_name_input_placeholder": "مثال: علوم البيانات",
+      "program_manager_input_label": "مدير البرنامج",
+      "program_description_input_label": "وصف البرنامج",
+      "program_description_input_placeholder": "وصف موجز للبرنامج",
+      "program_thumbnail_input_label": "صورة البرنامج",
+      "save_button_txt": "حفظ التغييرات"
+    }
+  },
+  "program_courses_page": {
+    "creation_course_error_message": "حدث خطأ أثناء إنشاء الدورة",
+    "editing_course_error_message": "حدث خطأ أثناء تحرير الدورة",
+    "editing_program_error_message": "حدث خطأ أثناء تحرير البرنامج",
+    "no_results": "لم يتم العثور على أي نتائج",
+    "notifications": {
+      "course_update_success_heading": "تم",
+      "course_update_success_txt": "تم تحديث برنامجك بنجاح.",
+      "course_deletion_error_heading": "خطأ في حذف الدورة"
+    },
+    "prompts": {
+      "delete_course": {
+        "heading": "حذف العنصر",
+        "description": "أنت على وشك حذف عنصر.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      }
+    },
+    "filter_statues": ["جميع الحالات", "لم يبدأ", "قيد التقدم", "مكتمل"],
+    "heading_label": "{n} دورة بإجمالي",
+    "edit_program_button_txt": "تعديل البرنامج",
+    "new_course_button_txt": "إضافة دورة",
+    "search_input_placeholder": "بحث",
+    "edit_course_button_txt": "تحرير الدورة",
+    "no_courses_message": "الدورات هي مجموعة من الفصول أو خطة دراسية حول موضوع معين",
+    "new_course_modal": {
+      "heading": "دورة جديدة",
+      "course_name_input_label": "اسم الدورة",
+      "course_name_input_placeholder": "مثال: دورة أمن السيبرانية الجديدة",
+      "course_code_input_label": "رمز الدورة",
+      "course_code_input_placeholder": "مثال: CSC200",
+      "course_manager_input_label": "مدير الدورة",
+      "course_description_input_label": "وصف الدورة",
+      "course_description_input_placeholder": "وصف موجز للدورة",
+      "course_thumbnail_input_label": "صورة مصغرة للدورة",
+      "save_button_txt": "حفظ التغييرات"
+    },
+    "edit_course_modal": {
+      "heading": "تحرير {n}",
+      "course_name_input_label": "اسم الدورة",
+      "course_name_input_placeholder": "مثال: دورة أمن السيبرانية الجديدة",
+      "course_code_input_label": "رمز الدورة",
+      "course_code_input_placeholder": "مثال: CSC200",
+      "course_manager_input_label": "مدير الدورة",
+      "course_description_input_label": "وصف الدورة",
+      "course_description_input_placeholder": "وصف موجز للدورة",
+      "course_thumbnail_input_label": "صورة مصغرة للدورة",
+      "save_button_txt": "حفظ التغييرات"
+    },
+    "edit_program_modal": {
+      "heading": "تحرير {n}",
+      "program_name_input_label": "اسم البرنامج",
+      "program_name_input_placeholder": "مثال: علوم البيانات",
+      "program_manager_input_label": "مدير البرنامج",
+      "program_description_input_label": "وصف البرنامج",
+      "program_description_input_placeholder": "وصف موجز للبرنامج",
+      "program_thumbnail_input_label": "صورة مصغرة للبرنامج",
+      "save_button_txt": "حفظ التغييرات"
+    }
+  },
+  "course_builder": {
+    "prompts": {
+      "delete_course": {
+        "heading": "حذف {n}",
+        "description": "أنت على وشك حذف هذه الدورة",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      },
+      "publish_draft": {
+        "heading": "نشر المسودة",
+        "description": "بمجرد نشر هذه المسودة، لن تتمكن من تحريرها.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "متابعة"
+      }
+    },
+    "notifications": {
+      "deleting_course_error_heading": "خطأ في حذف الدورة",
+      "upload_file_failure_heading": "خطأ",
+      "upload_file_failure_txt": "لم نتمكن من تحميل ملفك، يرجى المحاولة مرة أخرى في وقت لاحق أو الاتصال بالدعم.",
+      "draft_update_success_heading": "تم",
+      "draft_update_success_txt": "تم تحديث المسودة بنجاح.",
+      "validation_on_publish_error_heading": "خطأ",
+      "course_publish_success_heading": "تم",
+      "course_publish_success_txt": "تم نشر الدورة بنجاح.",
+      "unknow_publish_error_heading": "خطأ",
+      "unknow_publish_error_txt": "حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق."
+    },
+    "edit_course_modal": {
+      "heading": "تحرير {n}",
+      "course_name_input_label": "اسم الدورة",
+      "course_name_input_placeholder": "مثال: دورة أمن السيبرانية الجديدة",
+      "course_code_input_label": "رمز الدورة",
+      "course_code_input_placeholder": "مثال: CSC200",
+      "course_manager_input_label": "مدير الدورة",
+      "course_description_input_label": "وصف الدورة",
+      "course_description_input_placeholder": "وصف موجز للدورة",
+      "course_thumbnail_input_label": "صورة مصغرة للدورة",
+      "save_button_txt": "حفظ التغييرات",
+      "delete_course_button_txt": "حذف الدورة"
+    },
+    "edit_course_error_message": "حدث خطأ أثناء تحرير الدورة",
+    "add_block": {
+      "heading": "إضافة درس جديد",
+      "heading_on_active": "اختيار نوع الدرس",
+      "sub_heading": "فيديو، تينكان، PDF",
+      "sub_heading_on_active": "اختر درسًا يناسب احتياجاتك"
+    },
+    "empty_state": {
+      "heading": "أنشئ أول درس لك",
+      "sub_heading": "الدروس هي المادة الدراسية أو المادة التعليمية التي يتم تدريسها تدريجياً."
+    },
+    "validation_file_required": "الملف مطلوب"
+  },
+  "profile_page": {
+    "prompts": {
+      "update_profile": {
+        "heading": "تحديث الملف الشخصي",
+        "description": "أنت على وشك تحديث تفاصيل ملفك الشخصي.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      },
+      "update_password": {
+        "heading": "تحديث كلمة المرور",
+        "description": "أنت على وشك تحديث كلمة المرور الخاصة بك.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      }
+    },
+    "notifications": {
+      "profile_update_success_heading": "تم",
+      "profile_update_success_txt": "تم تحديث ملفك الشخصي بنجاح.",
+      "profile_update_error_heading": "خطأ",
+      "profile_update_error_txt": "لم نتمكن من تحديث ملفك الشخصي، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknow_profile_update_error_heading": "خطأ",
+      "unknow_profile_update_error_txt": "لم نتمكن من تحديث ملفك الشخصي، يرجى المحاولة مرة أخرى في وقت لاحق (2).",
+      "password_update_success_heading": "تم",
+      "password_update_success_txt": "تم تحديث كلمة المرور الخاصة بك بنجاح.",
+      "password_update_error_heading": "خطأ",
+      "password_update_error_txt": "لم نتمكن من تحديث كلمة المرور الخاصة بك، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknown_password_update_error_heading": "خطأ",
+      "unknown_password_update_error_txt": "لم نتمكن من تحديث كلمة المرور الخاصة بك، يرجى المحاولة مرة أخرى في وقت لاحق (2)."
+    },
+    "validation_messages": {
+      "new_and_current_passwords_must_not_match": "يجب أن تكون كلمة المرور الجديدة والحالية مختلفتين",
+      "password_confirmation_field_must_equal_to": "حقل كلمة السر"
+    },
+    "profile_info_section_heading": "الملف الشخصي",
+    "first_name_input_label": "الاسم الأول",
+    "first_name_input_placeholder": "الاسم الأول",
+    "last_name_input_label": "الاسم الأخير",
+    "last_name_input_placeholder": "الاسم الأخير",
+    "email_number_input_label": "البريد الإلكتروني",
+    "email_number_input_placeholder": "البريد الإلكتروني",
+    "phone_number_input_label": "رقم الهاتف",
+    "phone_number_input_placeholder": "رقم الهاتف",
+    "language_input_label": "اللغة",
+    "save_profile_info_button_txt": "حفظ",
+    "password_section_heading": "كلمة المرور",
+    "current_password_input_label": "كلمة المرور الحالية",
+    "current_password_input_placeholder": "كلمة المرور الحالية",
+    "new_password_input_label": "كلمة المرور الجديدة",
+    "new_password_input_placeholder": "كلمة المرور الجديدة",
+    "password_confirmation_input_label": "تأكيد كلمة المرور",
+    "password_confirmation_input_placeholder": "تأكيد كلمة المرور",
+    "save_password_changes_button_txt": "حفظ"
+  },
+  "layouts": {
+    "dashboard": {
+      "side_menu": {
+        "home_page": "الصفحة الرئيسية",
+        "content": "المحتوى",
+        "programs": "البرامج",
+        "resources": "الموارد",
+        "learning_paths": "مسارات التعلم",
+        "users": "المستخدمون",
+        "individual": "أفراد",
+        "groups": "مجموعات",
+        "learning_history": "سجل التعلم",
+        "settings": "الإعدادات",
+        "help": "المساعدة",
+        "dashboard": "لوحة التحكم",
+        "my_learning": "مسارات تعلّمي",
+        "my_activities": "أنشطتي",
+        "certifications": "الشهادات"
+      }
+    }
+  },
+  "organizational_emails": {
+    "headline": "إعداد رسائل البريد الإلكتروني للمؤسسة",
+    "description": "يمكنك إنشاء رسائل بريد إلكتروني مختلفة لحالات متعددة ، مثل تسجيل مستخدم جديد إلى تحديد كل بريد إلكتروني لكل دورة ، وما إلى ذلك.",
+    "email_settings_button_txt": "تعديل القوالب",
+    "setup_modal_headline": "رسائل البريد الإلكتروني للمؤسسة",
+    "templates_tab": {
+      "tab_name": "قوالب البريد الإلكتروني",
+      "select_email_template_input_label": "البريد الإلكتروني",
+      "certificate_template": "قالب الشهادة",
+      "email_input_label": "البريد الإلكتروني",
+      "subject_input_label": "الموضوع",
+      "email_body_input_label": "محتوى البريد الإلكتروني",
+      "save_button_txt": "حفظ التغييرات",
+      "emails_templates": {
+        "register_new_user": "تسجيل مستخدم جديد",
+        "certification_email": "البريد الإلكتروني للشهادة",
+        "reminder_email": "بريد تذكير"
+      }
+    },
+    "server_tab": {
+      "tab_name": "إعداد خادم البريد الإلكتروني",
+      "smtp_input_label": "مضيف SMTP",
+      "smtp_input_placeholder": "مضيف SMTP",
+      "port_number_input_label": "رقم المنفذ",
+      "port_number_input_placeholder": "رقم المنفذ",
+      "server_id_input_label": "معرف الخادم",
+      "server_id_input_placeholder": "معرف الخادم",
+      "server_password_input_label": "كلمة مرور الخادم",
+      "server_password_input_placeholder": "كلمة مرور الخادم",
+      "encryption_input_label": "التشفير",
+      "encryption_input_placeholder": "التشفير",
+      "sender_email_input_label": "بريد المرسل",
+      "sender_email_input_placeholder": "بريد المرسل",
+      "sender_name_input_label": "اسم المرسل",
+      "sender_name_input_placeholder": "اسم المرسل",
+      "send_test_email_button_txt": "إرسال بريد إلكتروني تجريبي",
+      "save_button_txt": "حفظ التغييرات"
+    },
+    "prompts": {
+      "update_smtp": {
+        "heading": "تحديث SMTP",
+        "description": "أنت على وشك تحديث تكوينات SMTP لبريدك الإلكتروني.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      },
+      "test_email": {
+        "heading": "إرسال بريد اختباري",
+        "description": "أنت على وشك إرسال بريد إلكتروني اختباري.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      },
+      "update_email": {
+        "heading": "تحديث نموذج البريد الإلكتروني",
+        "description": "أنت على وشك تحديث نموذج البريد الإلكتروني الخاص بك.",
+        "cancel_button_txt": "إلغاء",
+        "confirmation_button_txt": "تأكيد"
+      }
+    },
+    "notifications": {
+      "configuration_update_success_heading": "تمت العملية",
+      "configuration_update_success_txt": "تم تحديث التكوينات بنجاح.",
+      "configuration_update_failure_heading": "خطأ",
+      "configuration_update_failure_txt": "لم نتمكن من تحديث التكوينات الخاصة بك ، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknow_configuration_update_failure_heading": "خطأ في الخادم",
+      "unknow_configuration_update_failure_txt": "حاول مرة أخرى في بضع دقائق أو اتصل بالدعم.",
+      "test_email_success_heading": "تمت العملية",
+      "test_email_success_txt": "تم إرسال رسالة بريد إلكتروني تجريبية بنجاح.",
+      "test_email_failure_heading": "خطأ",
+      "test_email_failure_txt": "لم نتمكن من إرسال بريد إلكتروني تجريبي.",
+      "unknow_test_email_failure_heading": "خطأ في الخادم",
+      "unknow_test_email_failure_txt": "حاول مرة أخرى في بضع دقائق أو اتصل بالدعم.",
+      "email_template_update_success_heading": "تمت العملية",
+      "email_template_update_success_txt": "تم تحديث قالب البريد الإلكتروني بنجاح.",
+      "email_template_update_error_heading": "خطأ",
+      "email_template_update_error_txt": "لم نتمكن من تحديث قالب البريد الإلكتروني الخاص بك ، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknown_email_template_update_error_heading": "خطأ في الخادم",
+      "unknown_email_template_update_error_txt": "حاول مرة أخرى في بضع دقائق أو اتصل بالدعم."
+    }
+  },
+  "categories": {
+    "search_input_placeholder": "البحث",
+    "add_category_button_text": "إضافة فئة",
+    "table": {
+      "name": "الاسم",
+      "description": "الوصف",
+      "counter": "عداد",
+      "actions": "الإجراءات",
+      "edit_button_text": "تحرير",
+      "no_results": "لم يتم العثور على نتائج"
+    },
+    "add_modal": {
+      "heading": "إضافة فئة",
+      "name_input_label": "اسم الفئة",
+      "name_input_placeholder": "على سبيل المثال تطوير البرمجيات",
+      "description_input_label": "وصف الفئة",
+      "save_button_text": "حفظ الفئة"
+    },
+    "edit_modal": {
+      "heading": "تحرير الفئة",
+      "name_input_label": "اسم الفئة",
+      "name_input_placeholder": "على سبيل المثال تطوير البرمجيات",
+      "description_input_label": "وصف الفئة",
+      "save_button_text": "حفظ الفئة"
+    },
+    "success_category_added": "تم إضافة فئة جديدة بنجاح.",
+    "success_category_updated": "تم تحديث الفئة بنجاح.",
+    "error_category_not_added": "لم نتمكن من إضافة فئة جديدة، يرجى المحاولة مرة أخرى في وقت لاحق.",
+    "error_category_not_updated": "لم نتمكن من تحديث الفئة، يرجى المحاولة مرة أخرى في وقت لاحق.",
+    "creation_modal": {
+      "notifications": {
+        "category_creation_success_heading": "تمت العملية",
+        "category_creation_success_txt": "تمت إضافة فئة جديدة بنجاح.",
+        "category_creation_failure_heading": "خطأ",
+        "category_creation_failure_txt": "لم نتمكن من إضافة فئة جديدة، يرجى المحاولة مرة أخرى في وقت لاحق.",
+        "unknown_category_creation_failure_heading": "خطأ",
+        "unknown_category_creation_failure_txt": "لم نتمكن من إضافة فئة جديدة، يرجى المحاولة مرة أخرى في وقت لاحق (2)."
+      },
+      "heading": "إضافة فئة",
+      "name_input_label": "اسم الفئة",
+      "name_input_placeholder": "على سبيل المثال: تطوير البرمجيات",
+      "number_of_max_characters": "{x}/{y} الحد الأقصى",
+      "description_input_label": "وصف الفئة",
+      "save_button_text": "حفظ الفئة"
+    }
+  },
+  "integrations": {
+    "update_library_dialog": {
+      "heading": "تحديث تكامل المكتبة",
+      "description": "أنت على وشك تحديث إعدادات تكامل مكتبتك.",
+      "cancel_button_text": "إلغاء",
+      "confirm_button_text": "متابعة"
+    },
+    "reset_library_dialog": {
+      "heading": "إعادة تعيين تكامل المكتبة",
+      "description": "أنت على وشك حذف إعدادات تكامل المكتبة الحالية.",
+      "cancel_button_text": "إلغاء",
+      "confirm_button_text": "متابعة"
+    },
+    "success_library_updated_title": "تم",
+    "success_library_updated_description": "تم تحديث تفاصيل تكامل مكتبتك بنجاح.",
+    "error_library_updated_title": "خطأ",
+    "error_library_updated_description": "لم نتمكن من تحديث تفاصيل تكامل مكتبتك، يرجى المحاولة مرة أخرى في وقت لاحق.",
+    "update_zoom_dialog": {
+      "heading": "تحديث تكامل Zoom",
+      "description": "أنت على وشك تحديث إعدادات تكامل Zoom.",
+      "cancel_button_text": "إلغاء",
+      "confirm_button_text": "متابعة"
+    },
+    "reset_zoom_dialog": {
+      "heading": "إعادة تعيين إعدادات Zoom",
+      "description": "أنت على وشك حذف إعدادات تكامل Zoom الحالية.",
+      "cancel_button_text": "إلغاء",
+      "confirm_button_text": "متابعة"
+    },
+    "success_zoom_updated_title": "تم",
+    "success_zoom_updated_description": "تم تحديث تفاصيل Zoom الخاصة بك بنجاح.",
+    "error_zoom_updated_title": "خطأ",
+    "error_zoom_updated_description": "لم نتمكن من تحديث تفاصيل Zoom الخاصة بك، يرجى المحاولة مرة أخرى في وقت لاحق.",
+    "success_library_connected_title": "متصل",
+    "success_library_connected_description": "تم الاتصال بـ Library بنجاح.",
+    "error_library_connected_title": "غير متصل",
+    "error_library_connected_description": "فشل اتصال Library.",
+    "error_library_test_title": "خطأ",
+    "error_library_test_description": "لم نتمكن من اختبار اتصالك بـ Library، يرجى المحاولة مرة أخرى في وقت لاحق.",
+    "success_zoom_connected_title": "متصل",
+    "success_zoom_connected_description": "تم الاتصال بـ Zoom بنجاح.",
+    "error_zoom_connected_title": "غير متصل",
+    "error_zoom_connected_description": "فشل اتصال Zoom.",
+    "error_zoom_test_title": "خطأ",
+    "error_zoom_test_description": "لم نتمكن من اختبار اتصالك بـ Zoom، يرجى المحاولة مرة أخرى في وقت لاحق.",
+    "accordion": {
+      "connected": "متصل",
+      "instructions_title": "تعليمات التكامل",
+      "details_title": "تفاصيل التكامل",
+      "connect_button_text": "اتصال",
+      "rest_button_text": "إعادة تعيين",
+      "test_connection_button_text": "اختبار الاتصال"
+    },
+    "library_accordion": {
+      "header_title": "المكتبة",
+      "header_description": "لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.",
+      "features_title": "الميزات التي توفر لك الوقت:",
+      "features": [
+        "إنشاء اجتماعات Zoom تلقائيًا في الوقت الذي يتم فيه جدولة الحدث.",
+        "مشاركة تفاصيل التحدث الفريدة على الفور بمجرد التأكيد."
+      ],
+      "requirements_title": "المتطلبات:",
+      "requirements": ["إضافة مسؤول حساب Zoom."],
+      "input_key_label": "مفتاح المكتبة",
+      "input_key_placeholder": "مفتاح المكتبة"
+    },
+    "zoom_accordion": {
+      "header_title": "Zoom",
+      "header_description": "لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.",
+      "features_title": "الميزات التي توفر لك الوقت:",
+      "features": [
+        "إنشاء اجتماعات Zoom تلقائيًا في الوقت الذي يتم فيه جدولة الحدث.",
+        "مشاركة تفاصيل التحدث الفريدة على الفور بمجرد التأكيد."
+      ],
+      "requirements_title": "المتطلبات:",
+      "requirements": ["إضافة مسؤول حساب Zoom."],
+      "input_email_label": "البريد الإلكتروني",
+      "input_email_placeholder": "البريد الإلكتروني",
+      "input_api_key_label": "مفتاح API",
+      "input_api_key_placeholder": "مفتاح API",
+      "input_secret_key_label": "المفتاح السري",
+      "input_secret_key_placeholder": "المفتاح السري"
+    },
+    "edx_accordion": {
+      "header_title": "دمج edX",
+      "header_description": "APIs للوصول إلى معلومات Open edX",
+      "requirements_title": "المتطلبات:",
+      "requirements": ["يمكنك الوصول إلى جميع معلومات edX."],
+      "input_key_label": "مفتاح المكتبة",
+      "input_key_placeholder": "مفتاح المكتبة"
+    }
+  },
+  "certification_designer": {
+    "headline": "شهادات المؤسسة",
+    "template_section_preview_heading": "القالب",
+    "default_template": "القالب الافتراضي",
+    "description": "يمكنك إنشاء شهادات مختلفة لعدة متعلمين.",
+    "open_certificate_designer_button_txt": "قالب الشهادة",
+    "certificate_inputs": {
+      "title": "شهادة الإنجاز",
+      "subtitle": "يتم تقديم هذه الشهادة لـ",
+      "completion_text": "لإكمال",
+      "certificate_number_label": "رقم الشهادة:"
+    },
+    "notifications": {
+      "template_creation_success_heading": "تم",
+      "template_creation_success_txt": "تم إنشاء القالب الجديد الخاص بك بنجاح.",
+      "template_creation_error_heading": "خطأ",
+      "template_creation_error_txt": "لم نتمكن من إنشاء القالب الجديد الخاص بك، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknown_template_creation_error_heading": "خطأ في الخادم",
+      "unknown_template_creation_error_txt": "حاول مرة أخرى في بضع دقائق أو اتصل بالدعم.",
+      "delete_template_success_heading": "تم",
+      "delete_template_success_txt": "تم حذف القالب الخاص بك بنجاح.",
+      "delete_template_error_heading": "خطأ",
+      "delete_template_error_txt": "لم نتمكن من حذف هذا القالب، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknown_delete_template_error_heading": "خطأ في الخادم",
+      "unknown_delete_template_error_txt": "حاول مرة أخرى في بضع دقائق أو اتصل بالدعم.",
+      "template_update_success_heading": "تم",
+      "template_update_success_txt": "تم تحديث القالب الخاص بك بنجاح.",
+      "template_update_error_heading": "خطأ",
+      "template_update_error_txt": "لم نتمكن من تحديث القالب الخاص بك، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknow_template_update_error_heading": "خطأ في الخادم",
+      "unknow_template_update_error_txt": "حاول مرة أخرى في بضع دقائق أو اتصل بالدعم.",
+      "request_in_progress_heading": "غير قادر على إغلاق هذا النموذج",
+      "request_in_progress_txt": "هناك طلب قيد التنفيذ.",
+      "resource_upload_failure_heading": "خطأ",
+      "resource_upload_failure_txt": "لم نتمكن من تحميل ملفك، يرجى المحاولة مرة أخرى في وقت لاحق أو الاتصال بالدعم."
+    },
+    "prompts": {
+      "delete_template": {
+        "heading": "حذف قالب الشهادة",
+        "description": "هل تريد بالتأكيد حذف قالب الشهادة هذا؟",
+        "confirmation_button_txt": "تأكيد",
+        "cancel_button_txt": "إلغاء"
+      }
+    },
+    "validation_messages": {
+      "file_is_required": "الملف مطلوب"
+    },
+    "modal_headline": "شهادات المؤسسة",
+    "new_certification_button_txt": "قالب شهادة جديد",
+    "certification_title_input_label": "عنوان الشهادة",
+    "certification_title_input_placeholder": "عنوان الشهادة",
+    "subtitle_input_label": "العنوان الفرعي",
+    "subtitle_input_placeholder": "العنوان الفرعي",
+    "completion_text_input_label": "نص الإكمال",
+    "completion_text_input_placeholder": "نص الإكمال",
+    "certification_issuer_input_label": "مُصدر الشهادة",
+    "signature_input_label": "التوقيع",
+    "logo_input_label": "الشعار",
+    "background_input_label": "الخلفية",
+    "background_input_extra_info": "يُفضل 1748 × 1240 بكسل",
+    "primary_color_input_label": "اللون الأساسي",
+    "secondary_color_input_label": "اللون الثانوي",
+    "text_color_input_label": "لون النص",
+    "signature_upload_label": "تحميل التوقيع",
+    "logo_upload_label": "تحميل الشعار",
+    "background_upload_label": "تحميل الخلفية",
+    "save_button_txt": "حفظ",
+    "templates_dropdown_label": "القوالب",
+    "completion_txt_input_label": "نص الإنجاز",
+    "template_name_input_placeholder": "اسم القالب",
+    "template_name_input_label": "اسم القالب",
+    "certification_preview_label": "معاينة الشهادة",
+    "new_certification_modal": {
+      "heading": "نموذج قالب شهادة جديد",
+      "certification_name_input_label": "اسم الشهادة",
+      "certification_name_input_placeholder": "على سبيل المثال: تطوير البرمجيات",
+      "save_button_txt": "حفظ"
+    }
+  },
+  "users_groups_page": {
+    "headline": "المجموعات",
+    "filter_placeholder": "المجموعات المفعلة",
+    "filter_options": {
+      "all": "جميع المجموعات",
+      "active": "المجموعات النشطة",
+      "inactive": "المجموعات الغير نشطة"
+    },
+    "group_status": {
+      "active": "نشط",
+      "Inactive": "غير نشط"
+    },
+    "add_group_button_txt": "إضافة مجموعة",
+    "search_input_placeholder": "البحث",
+    "table_columns": {
+      "name": "الاسم",
+      "members": "الأعضاء",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "no_results": "لا يوجد نتائج",
+    "notifications": {
+      "group_creation_success_heading": "تم",
+      "group_creation_success_txt": "تم إنشاء مجموعة جديدة بنجاح.",
+      "group_creation_failure_heading": "خطأ",
+      "group_creation_failure_txt": "لم نتمكن من إنشاء مجموعة جديدة، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknown_group_creation_failure_heading": "خطأ",
+      "unknown_group_creation_failure_txt": "لم نتمكن من إنشاء مجموعة جديدة، يرجى المحاولة مرة أخرى في وقت لاحق (2).",
+      "group_update_success_heading": "تم",
+      "group_update_success_txt": "تم تحديث المجموعة بنجاح.",
+      "group_update_failure_heading": "خطأ",
+      "group_update_failure_txt": "لم نتمكن من تحديث المجموعة، يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "unknown_group_update_failure_heading": "خطأ",
+      "unknown_group_update_failure_txt": "لم نتمكن من تحديث المجموعة، يرجى المحاولة مرة أخرى في وقت لاحق (2)."
+    },
+    "new_group_modal": {
+      "headline": "إضافة مجموعة",
+      "group_name_input_label": "اسم المجموعة",
+      "group_name_input_placeholder": "على سبيل المثال تطوير البرمجيات",
+      "max_description_length": "الحد الأقصى {n}",
+      "group_description_input_label": "وصف المجموعة",
+      "status_input_label": "الحالة",
+      "active_radio_label": "نشط",
+      "inactive_radio_label": "غير نشط",
+      "next_button_text": "التالي",
+      "total_number_of_members": "عدد الأعضاء ({n})",
+      "search_members_input_placeholder": "البحث",
+      "number_of_selected_members": "الأعضاء المحددين ({n})",
+      "previous_button_txt": "السابق",
+      "save_button_txt": "حفظ"
+    }
+  },
+  "users_individuals": {
+    "heading": "أفراد",
+    "add_users_button_text": "إضافة مستخدمين",
+    "add_users_manually": "إضافة مستخدم يدويًا",
+    "add_users_csv": "استيراد CSV",
+    "search_input_placeholder": "البحث باسم أو بريد إلكتروني...",
+    "delete_button_text": "حذف | حذف ({n}) | حذف ({n})",
+    "status_filter": {
+      "all_statuses": "كل الحالات",
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "role_names": {
+      "All": "جميع الأدوار",
+      "ProgramDirector": "مدير البرنامج",
+      "CourseManager": "مدير الدورة التدريبية",
+      "Learner": "متعلم",
+      "Admin": "مسؤول النظام",
+      "LearningManager": "مدير التعلم"
+    },
+    "roles_filter": {
+      "placeholder": "تصفية حسب الأدوار"
+    },
+    "table": {
+      "name": "الاسم",
+      "phone_number": "رقم الهاتف",
+      "added_date": "تاريخ الإضافة",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "status_active": "نشط",
+      "status_inactive": "غير نشط",
+      "view_button_text": "عرض",
+      "edit_button_text": "تعديل",
+      "no_results": "لا يوجد نتائج"
+    },
+    "delete_user_dialog": {
+      "heading": "حذف المستخدم | حذف {n} مستخدم",
+      "description": "أنت على وشك حذف مستخدم | أنت على وشك حذف {n} مستخدم",
+      "cancel_button_text": "إلغاء",
+      "confirm_button_text": "تأكيد"
+    },
+    "success_delete_user_title": "تم الحذف",
+    "success_delete_user_description": "تم حذف المستخدمين المحددين بنجاح.",
+    "error_delete_user_title": "خطأ",
+    "error_delete_user_description": "حدث خطأ ما، يرجى المحاولة مرة أخرى في بضع دقائق أو الاتصال بالدعم.",
+    "error_open_user_modal_title": "خطأ",
+    "error_open_user_modal_description": "حدث خطأ ما، يرجى المحاولة مرة أخرى في بضع دقائق أو الاتصال بالدعم.",
+    "add_edit_user_modal": {
+      "heading_add": "إضافة مستخدم",
+      "heading_edit": "تعديل معلومات المستخدم",
+      "success_add_user_title": "تم",
+      "success_add_user_description": "تمت إضافة المستخدم بنجاح.",
+      "error_add_user_title": "خطأ",
+      "error_add_user_description": "حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق أو الاتصال بالدعم.",
+      "success_update_user_title": "تم",
+      "success_update_user_description": "تم تحديث معلومات المستخدم بنجاح.",
+      "error_update_user_title": "خطأ",
+      "error_update_user_description": "حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق أو الاتصال بالدعم.",
+      "input_first_name_label": "الاسم الأول",
+      "input_first_name_placeholder": "الاسم الأول",
+      "input_last_name_label": "اسم العائلة",
+      "input_last_name_placeholder": "اسم العائلة",
+      "input_email_label": "البريد الإلكتروني",
+      "input_email_placeholder": "البريد الإلكتروني",
+      "input_language_label": "اللغة",
+      "input_number_label": "رقم الهاتف (اختياري)",
+      "input_number_placeholder": "رقم الهاتف",
+      "input_role_label": "الدور",
+      "input_role_placeholder": "اختر الدور",
+      "input_gender_label": "الجنس",
+      "input_gender_male": "ذكر",
+      "input_gender_female": "أنثى",
+      "input_status_label": "الحالة",
+      "input_status_active": "فعال",
+      "input_status_inactive": "غير فعال",
+      "input_group_label": "المجموعة",
+      "input_group_placeholder": "اسم المجموعة",
+      "submit_button_text_add": "إضافة مستخدم",
+      "submit_button_text_edit": "تحديث معلومات المستخدم"
+    },
+    "add_bulk_user_modal": {
+      "heading": "إضافة مستخدمين مجمعين",
+      "download_template_description": "قم بتنزيل ملف CSV أدناه ، ثم أضف المعلومات وفقًا لمتطلباتنا.",
+      "download_template_button_text": "تحميل النموذج",
+      "success_add_title": "منتهي",
+      "success_add_description": "تم إضافة المستخدمين بنجاح.",
+      "error_add_title": "خطأ",
+      "error_add_description": "حدث خطأ ما ، حاول مرة أخرى خلال بضع دقائق أو اتصل بالدعم.",
+      "success_download_title": "نجاح",
+      "success_download_description": "تم التنزيل بنجاح",
+      "error_download_title": "فشل",
+      "error_download_description": "التحميل فشل",
+      "rules_title": "يجب اتباع القواعد:",
+      "rules": [
+        "يحتوي السطر الأول في الملف على عناوين رأس وليس بيانات مستخدم!",
+        "يجب أن تطابق عناوين الرأس (حساسة لحالة الأحرف) العناوين الواردة في الجدول أعلاه (الاسم واللقب والبريد الإلكتروني والبرنامج والمستوى).",
+        "خيارات الجنس: M (ذكر) ، F (أنثى)",
+        "أسماء المجموعات الصالحة: مديرو المستوى C ، مجموعة أساسيات CS ، المستخدمون",
+        "يجب أن تكون هناك مسافة بين رمز الدولة ورقم الهاتف (على سبيل المثال: 966 500000000)"
+      ],
+      "rule_valid_roles": "الأدوار الصحيحة: {roles}",
+      "upload_file_label": "تحميل ملف CSV",
+      "uploaded_file_label": "الملف المحمّل",
+      "table": {
+        "row": "صف",
+        "name": "الاسم",
+        "surname": "اللقب",
+        "email": "البريد الإلكتروني",
+        "gender": "الجنس",
+        "phoneNumber": "رقم الهاتف",
+        "groupNames": "أسماء المجموعات",
+        "Language": "اللغة",
+        "roleId": "معرّف الدور"
+      },
+      "add_button_text": "إضافة المستخدمين"
+    },
+    "user_sidebar": {
+      "view_all": "عرض الكل",
+      "profile": {
+        "heading": "ملف المستخدم",
+        "avatar_joined_text": "انضم في {date}",
+        "learning_paths_heading": "مسارات التعلم",
+        "activities_heading": "الأنشطة",
+        "certifications_heading": "الشهادات"
+      },
+      "learning": {
+        "heading": "تعلم المستخدم",
+        "not_started": "لم يبدأ",
+        "in_progress": "جاري التقدم",
+        "completed": "مكتمل",
+        "search_input_placeholder": "البحث",
+        "no_results": "لا توجد نتائج"
+      },
+      "activities": {
+        "heading": "أنشطة المستخدم",
+        "active": "نشط",
+        "passed_due_date": "تاريخ الاستحقاق المنقضي",
+        "finished": "منتهي",
+        "no_results": "لا توجد نتائج"
+      },
+      "certificates": {
+        "heading": "شهادات المستخدم",
+        "download_certificate": "تحميل",
+        "no_results": "لا توجد نتائج"
+      }
+    }
+  },
+  "notifications_page": {
+    "headline": "الإشعارات",
+    "mark_all_as_read_button_txt": "تحديد الكل كمقروءة",
+    "loading_notifications_failure_message": "خطأ في تحميل الإشعارات {n}",
+    "no_results": "لا توجد إشعارات",
+    "notifications": {
+      "update_notifications_failure_heading": "خطأ في تحديث الإشعارات"
+    }
+  },
+  "notifications_popup": {
+    "headline": "الإشعارات",
+    "mark_all_as_read_button_txt": "تحديد الكل كمقروءة",
+    "show_all_notifications_button_txt": "كل الإشعارات",
+    "loading_notifications_failure_message": "خطأ في تحميل الإشعارات {n}",
+    "no_results": "لا توجد إشعارات",
+    "notifications": {
+      "update_notifications_failure_heading": "خطأ في تحديث الإشعارات"
+    }
+  },
+  "settings_page": {
+    "headline": "الإعدادات",
+    "tabs": {
+      "integrations": "التكاملات",
+      "categories": "الفئات",
+      "organizational_emails": "رسائل البريد الإلكتروني التنظيمية",
+      "certificate_designer": "تصميم الشهادات"
+    }
+  },
+  "validations": {
+    "alpha": "يجب أن يحتوي هذا الحقل على أحرف فقط.",
+    "alphaNum": "يجب أن يحتوي هذا الحقل على أحرف وأرقام فقط.",
+    "email": "يجب أن يحتوي هذا الحقل على عنوان بريد إلكتروني صحيح.",
+    "integer": "يجب أن يحتوي هذا الحقل على رقم صحيح فقط.",
+    "maxLength": "يمكن أن يحتوي هذا الحقل على {max} حرفًا كحد أقصى.",
+    "minLength": "يجب أن يحتوي هذا الحقل على {min} حرفًا على الأقل.",
+    "numeric": "يجب أن يحتوي هذا الحقل على أرقام فقط.",
+    "required": "هذا الحقل مطلوب.",
+    "minValue": "يجب أن يكون قيمة هذا الحقل على الأقل {min}.",
+    "maxValue": "يجب أن تكون قيمة هذا الحقل أقل من أو تساوي {max}.",
+    "url": "يجب أن يحتوي هذا الحقل على رابط URL صحيح.",
+    "confirm": "يجب أن يكون هذا الحقل مطابق لـ{otherName}"
+  }
+}
